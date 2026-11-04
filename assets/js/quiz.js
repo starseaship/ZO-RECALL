@@ -1,4 +1,4 @@
-import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.3';
+import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.4';
 import { flatten, createQuiz, weightedOrder } from './quiz-engine.js';
 const ctx=await boot('quiz');
 if(ctx) {
@@ -13,7 +13,7 @@ if(ctx) {
       if(locked)return;locked=true;const chosen=q.options[Number(button.dataset.option)],correct=chosen.sense.senseId===s.senseId;
       ctx.store.answer(w,s,correct);results.push({word:w,sense:s,correct});
       document.querySelectorAll('[data-option]').forEach((b,i)=>{b.disabled=true;const isAnswer=q.options[i].sense.senseId===s.senseId;if(isAnswer){b.classList.add('correct');b.querySelector('.option-status').textContent='✓';}else if(b===button){b.classList.add('incorrect');b.querySelector('.option-status').textContent='✕';}});
-      $('#feedback').innerHTML=`<section class="feedback ${correct?'correct':'incorrect'}"><h3>${correct?'✓ 回答正确':'✕ 回答错误'}</h3><p class="english">${html(s.definitionEn)}</p><p>${html(s.meaningZh)}</p>${s.nuanceZh?`<p class="nuance">${html(s.nuanceZh)}</p>`:''}<blockquote><p class="english">${html(s.examples[0].en)}</p><p class="muted">${html(s.examples[0].zh)}</p></blockquote><details><summary>完整词条</summary>${wordDetails(w,s)}</details></section>`;
+      $('#feedback').innerHTML=`<section class="feedback ${correct?'correct':'incorrect'}"><h3>${correct?'✓ 回答正确':'✕ 回答错误'}</h3><p class="english">${html(s.definitionEn)}</p><p>${html(s.definitionZh ?? s.meaningZh)}</p>${s.nuanceZh?`<p class="nuance">${html(s.nuanceZh)}</p>`:''}<blockquote><p class="english">${html(s.examples[0].en)}</p><p class="muted">${html(s.examples[0].zh)}</p></blockquote><details><summary>完整词条</summary>${wordDetails(w,s)}</details></section>`;
       $('#next-question').hidden=false;$('#feedback').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'nearest'});
     });
     $('#next-question').onclick=()=>{if(index<questions.length-1){index++;render();$('#quiz-content').scrollIntoView({block:'start'});}else finish();};$('#quit').onclick=finish;

@@ -27,6 +27,8 @@ export function validateWord(w, categories) {
   for (const s of w.senses) {
     if (!s || typeof s !== 'object') { errors.push('义项必须为对象'); continue; }
     for (const key of ['senseId', 'definitionEn', 'meaningZh']) if (!nonempty(s[key])) errors.push(`${key} 不能为空`);
+    if (s.definitionZh !== undefined && !nonempty(s.definitionZh)) errors.push(`${s.senseId}: definitionZh 必须为非空文本`);
+    if (s.collocations && Array.isArray(s.collocations) && s.collocations.some(c => c?.exampleZh !== undefined && (!nonempty(c.exampleZh) || !nonempty(c.exampleEn)))) errors.push(`${s.senseId}: 搭配例句翻译需要对应的英文例句`);
     if (w.senses.length > 1 && !nonempty(s.senseHintEn)) errors.push(`${s.senseId}: 多义词需 senseHintEn`);
     if (nonempty(s.definitionEn) && forbidden.some(f => new RegExp(`\\b${escapeRegExp(f)}\\b`, 'i').test(s.definitionEn))) errors.push(`${s.senseId}: 释义包含词头或已登记同源词`);
     if (!Array.isArray(s.examples) || !s.examples.length || !s.examples.every(e => nonempty(e?.en) && nonempty(e?.zh) && nonempty(w.word) && new RegExp(`\\b${escapeRegExp(w.word)}\\b`, 'i').test(e.en))) errors.push(`${s.senseId}: 例句需双语且包含目标词原形`);

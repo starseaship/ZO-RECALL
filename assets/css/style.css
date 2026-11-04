@@ -7,51 +7,47 @@ body.bilingual #chinese-answer{display:none}
 
 .ipa-inline{font-size:inherit;font-weight:inherit;color:inherit;white-space:nowrap}
 
-/* Connected reading groups for word notes. */
-.detail-stack.word-notes{padding:26px 28px;border-radius:20px}
-.word-notes p{margin:0;font-size:14px}
-.word-notes .sense-caption{font-size:12px;color:var(--muted);margin:0 0 12px}
-.word-notes .learning-definition{font-size:21px;line-height:1.55;font-weight:500;letter-spacing:-.2px;text-wrap:pretty}
-.word-notes .learning-meaning{font-size:15px;font-weight:600;color:var(--accent);margin-top:9px}
-.word-notes .nuance-note{margin-top:16px;padding:12px 15px;background:#f5f2f9;border-left:3px solid #b6a1cd;border-radius:0 10px 10px 0}
-.word-notes .nuance-note p{font-size:14px;line-height:1.8;color:#514d60}
-.word-notes .usage-group,.word-notes .compare-group{margin-top:26px}
-.word-notes .notes-heading{margin:0 0 12px;font-size:13px;font-weight:650;color:#686176;letter-spacing:.2px;line-height:1.5}
-.word-notes .context-list{margin:-2px 0 16px;display:grid;gap:7px}
-.word-notes .context-line{display:flex;align-items:baseline;gap:9px;font-size:12px;line-height:1.7}
-.word-notes .context-line strong{font-size:12px;font-weight:500;color:var(--accent);white-space:nowrap}
-.word-notes .context-line span{color:var(--muted)}
-.word-notes .usage-pair{margin-top:10px;padding:14px 16px;background:#f6f6fa;border-radius:12px}
-.word-notes .phrase-line{display:flex;align-items:baseline;gap:6px 14px;flex-wrap:wrap;line-height:1.5}
-.word-notes .phrase-line strong{font-size:17px;font-weight:650}
-.word-notes .phrase-line>span{font-size:13px;color:#686176}
-.word-notes .usage-example{font-size:16px;line-height:1.7;margin-top:9px;color:var(--ink)}
-.word-notes .example-pair{margin:17px 0 0;padding:0 2px}
-.word-notes .example-pair blockquote{margin:0;padding:0;border:0;font-size:17px;line-height:1.7;color:var(--ink)}
-.word-notes .example-pair figcaption{margin-top:5px;font-size:13px;line-height:1.7;color:#716d7d}
-.word-notes mark{color:#574075;background:#eae2f3;padding:1px 3px;border-radius:4px;font-weight:600;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.word-notes .compare-list{margin:0}
-.word-notes .compare-row{display:grid;grid-template-columns:minmax(90px,auto) minmax(0,1fr);gap:16px;padding:12px 0;border-top:1px solid #e9e5ed;align-items:baseline}
-.word-notes .compare-row:first-child{padding-top:0;border-top:0}
-.word-notes .compare-row:last-child{padding-bottom:0}
-.word-notes .compare-row dt{font-size:16px;font-weight:650;line-height:1.6;color:#5a426f;overflow-wrap:anywhere}
-.word-notes .compare-row dd{margin:0;font-size:14px;line-height:1.8;color:#555260}
-.word-notes .notes-extras{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:22px;margin-top:25px;padding-top:20px;border-top:1px solid var(--line)}
-.word-notes .notes-extras p{color:#625b6d;line-height:1.8}
-.word-notes .formation-pair+.formation-pair{margin-top:12px}
-.word-notes .formation-pair>strong{display:block;font-size:16px;margin-bottom:5px;color:#5a426f}
-.word-notes .sense-detail+.sense-detail{margin-top:30px;padding-top:26px;border-top:1px solid var(--line)}
+
+/* Vocabulary notebook: paired English/Chinese reading, no inner disclosures. */
+.word-notebook{max-width:720px;margin:12px auto 0}
+.word-notebook p,.word-notebook h3,.word-notebook figure,.word-notebook blockquote{margin:0}
+.word-notebook p{font-size:14px}
+.word-notebook .notebook-sense+.notebook-sense{margin-top:28px}
+.word-notebook .notebook-sense-header{padding:0 3px 13px}
+.word-notebook .notebook-word-meaning{font-size:15px;font-weight:600;color:var(--accent)}
+.word-notebook .notebook-sense-hint{font-size:12px;color:var(--muted);margin-bottom:6px}
+.word-notebook .notebook-paper{background:var(--surface);padding:26px 28px;border-top:3px solid var(--accent);border-radius:4px 4px 16px 16px}
+.word-notebook .notebook-definition>p[lang]{font-size:20px;line-height:1.6;font-weight:500}
+.word-notebook .notebook-definition .notebook-translation{font-size:14px;color:#716b7c;line-height:1.75;margin-top:7px}
+.word-notebook .notebook-nuance{font-size:14px;line-height:1.75;margin-top:17px;padding-left:12px;border-left:2px solid var(--line)}
+.word-notebook .notebook-usage{margin-top:24px;padding-top:17px;border-top:1px solid var(--line)}
+.word-notebook .notebook-usage h3{font-size:17px;line-height:1.65;font-weight:650;margin:0;color:var(--ink)}
+.word-notebook .notebook-phrase-meaning{font-size:13px;color:#716b7c;margin-top:2px}
+.word-notebook .notebook-usage figure{margin-top:13px}
+.word-notebook blockquote{font-size:16px;line-height:1.7;padding:0;border:0}
+.word-notebook figcaption{font-size:13px;color:#716b7c;line-height:1.7;margin-top:5px}
+.word-notebook mark{padding:1px 2px;color:var(--accent);background:#ece4f3;border-radius:3px;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:600}
+.word-notebook .notebook-example{margin-top:21px}
+.word-notebook .notebook-context{margin-top:20px}
+.word-notebook .notebook-context>div{display:flex;flex-wrap:wrap;gap:2px 8px;color:#716b7c;font-size:12px}
+.word-notebook .notebook-context>div+div{margin-top:6px}
+.word-notebook .notebook-context p{font-size:12px}
+.word-notebook .notebook-context span{color:var(--accent)}
+.word-notebook .notebook-contrast{margin-top:23px;padding-top:16px;border-top:1px solid var(--line)}
+.word-notebook .notebook-contrast>div+div{margin-top:17px}
+.word-notebook .notebook-contrast h3{font-size:16px;line-height:1.65;font-weight:600;margin:0;color:var(--ink)}
+.word-notebook .notebook-versus{font-size:12px;font-weight:400;color:#716b7c;margin:0 7px}
+.word-notebook .notebook-contrast p{font-size:14px;line-height:1.75;margin-top:7px}
+.word-notebook .notebook-extras{padding:21px 28px;background:var(--surface);margin-top:16px;border-radius:14px;display:grid;gap:20px}
+.word-notebook .notebook-extras h3{font-size:13px;font-weight:600;color:#716b7c;margin:0 0 8px}
+.word-notebook .notebook-extras p{font-size:14px;line-height:1.75}
+.word-notebook .notebook-formation+.notebook-formation{margin-top:12px}
+.word-notebook .notebook-formation>strong{display:block;margin-bottom:4px;font-size:16px;color:var(--accent)}
+body[data-page=library] .word-heading{max-width:720px;margin-left:auto;margin-right:auto}
+.feedback .word-notebook .notebook-paper{padding:22px 20px}
 @media(max-width:650px){
-  .detail-stack.word-notes{padding:21px 20px}
-  .word-notes .learning-definition{font-size:20px;line-height:1.55}
-  .word-notes .usage-group,.word-notes .compare-group{margin-top:23px}
-  .word-notes .context-line{flex-wrap:wrap;gap:1px 8px}
-  .word-notes .usage-pair{padding:13px 14px}
-  .word-notes .phrase-line{display:grid;gap:4px}
-  .word-notes .phrase-line strong{font-size:17px}
-  .word-notes .usage-example{font-size:16px;margin-top:10px}
-  .word-notes .example-pair blockquote{font-size:17px}
-  .word-notes .compare-row{grid-template-columns:1fr;gap:4px;padding:12px 0}
-  .word-notes .compare-row dt{font-size:16px}
-  .word-notes .compare-row dd{font-size:14px}
+  .word-notebook .notebook-paper{padding:22px 20px}
+  .word-notebook .notebook-definition>p[lang]{font-size:19px}
+  .word-notebook .notebook-extras{padding:20px}
+  .feedback .word-notebook .notebook-paper{padding:18px 16px}
 }

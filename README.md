@@ -39,7 +39,7 @@ npm run build
 
 1. 在 `data/words-*.json` 中新增词条；永久 `id` 与 `senseId` 不随文本修改。
 2. 新文件登记到 `data/manifest.json`，分类必须存在于 manifest。
-3. 为新增词条写原创建议释义、中文义项、含目标词的双语例句，先标 `draft` / `needs-check`。
+3. 为新增词条写原创建议释义、`definitionZh`（英文释义的完整中文翻译）、中文义项、含目标词的双语例句；搭配例句的 `exampleEn` 需配对 `exampleZh`。先标 `draft` / `needs-check`。
 4. 易混词录入 `confusables`；题库会进行双向排除，同时检查选项之间的冲突。可通过 `distractorSenseIds` 指定优先干扰项，但不绕过难度和安全过滤。
 5. `definitionForbidden` 记录需要禁止在定义中出现的同源词，如 rarely → rare。自动校验可识别词头和已登记词族，无法穷尽所有语言学同源关系，仍需人工核查。可选的 `equivalenceGroup` 可标记已知同义义项，避免共同出题。
 6. 多义词每个义项必须有 `senseHintEn`；有多义项时出题按义项区分。

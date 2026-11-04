@@ -28,24 +28,27 @@ export function filterWords(ctx, {scope='all',category='',search='',pos='',level
   });
 }
 export function wordDetails(w, activeSense) {
-  return '<div class="detail-stack word-notes">' + w.senses.map(s => {
+  const senses = w.senses.map(s => {
     const terms = [w.word, ...(s.collocations ?? []).map(c => c.phrase)];
-    const usage = (s.collocations ?? []).map(c => '<div class="usage-pair"><div class="phrase-line"><strong class="english" lang="en">' + html(c.phrase) + '</strong><span>' + html(c.meaningZh) + '</span></div>' + (c.exampleEn ? '<p class="usage-example english" lang="en">' + highlight(c.exampleEn, terms) + '</p>' : '') + '</div>').join('');
-    const examples = (s.examples ?? []).map(e => '<figure class="example-pair"><blockquote class="english" lang="en">' + highlight(e.en, terms) + '</blockquote><figcaption>' + html(e.zh) + '</figcaption></figure>').join('');
-    return '<article class="sense-detail" id="' + html(s.senseId) + '">' +
-      (w.senses.length > 1 ? '<p class="sense-caption english">' + html(s.senseHintEn) + '</p>' : '') +
-      '<section class="meaning-group"><h3 class="sr-only">核心释义</h3><p class="learning-definition english" lang="en">' + html(s.definitionEn) + '</p><p class="learning-meaning">' + html(s.meaningZh) + '</p>' +
-      (s.nuanceZh ? '<div class="nuance-note"><h3 class="sr-only">侧重点</h3><p>' + html(s.nuanceZh) + '</p></div>' : '') + '</section>' +
-      '<section class="usage-group"><h3 class="notes-heading">' + (usage ? '搭配与例句' : '例句') + '</h3>' +
-      ((s.contexts ?? []).length ? '<div class="context-list">' + s.contexts.map(c => '<p class="context-line"><strong>' + html(c.title) + '</strong><span>' + html(c.noteZh) + '</span></p>').join('') + '</div>' : '') +
-      usage + examples + '</section>' +
-      ((s.confusables ?? []).length ? '<section class="compare-group"><h3 class="notes-heading">易混辨析</h3><dl class="compare-list">' + s.confusables.map(c => '<div class="compare-row"><dt class="english" lang="en">' + html(c.word) + '</dt><dd>' + html(c.noteZh) + '</dd></div>').join('') + '</dl></section>' : '') +
-      '</article>';
-  }).join('') +
-  ((w.wordFormation ?? []).length || w.memoryHintZh ? '<div class="notes-extras">' +
-    ((w.wordFormation ?? []).length ? '<section><h3 class="notes-heading">词根词缀</h3>' + w.wordFormation.map(f => '<div class="formation-pair"><strong class="english" lang="en">' + html(f.part) + '</strong><p>' + html(f.explanationZh) + '</p></div>').join('') + '</section>' : '') +
-    (w.memoryHintZh ? '<section><h3 class="notes-heading">记忆提示</h3><p>' + html(w.memoryHintZh) + '</p></section>' : '') + '</div>' : '') +
-  '<p class="sr-only">' + html(w.sourceNote) + '</p></div>';
+    const uses = (s.collocations ?? []).map(c =>
+      '<section class="notebook-usage"><h3 class="english" lang="en">' + html(c.phrase) + '</h3><p class="notebook-phrase-meaning">' + html(c.meaningZh) + '</p>' +
+      (c.exampleEn ? '<figure><blockquote class="english" lang="en">' + highlight(c.exampleEn, terms) + '</blockquote>' + (c.exampleZh ? '<figcaption>' + html(c.exampleZh) + '</figcaption>' : '') + '</figure>' : '') + '</section>'
+    ).join('');
+    return '<article class="notebook-sense" id="' + html(s.senseId) + '"><header class="notebook-sense-header">' +
+      (w.senses.length > 1 ? '<p class="notebook-sense-hint english">' + html(s.senseHintEn) + '</p>' : '') +
+      '<p class="notebook-word-meaning">' + html(s.meaningZh) + '</p></header><div class="notebook-paper">' +
+      '<section class="notebook-definition" aria-label="英文释义与翻译"><p class="english" lang="en">' + html(s.definitionEn) + '</p><p class="notebook-translation">' + html(s.definitionZh ?? s.meaningZh) + '</p></section>' +
+      (s.nuanceZh ? '<p class="notebook-nuance">' + html(s.nuanceZh) + '</p>' : '') +
+      uses +
+      s.examples.map(e => '<figure class="notebook-example"><blockquote class="english" lang="en">' + highlight(e.en,terms) + '</blockquote><figcaption>' + html(e.zh) + '</figcaption></figure>').join('') +
+      ((s.contexts ?? []).length ? '<div class="notebook-context">' + s.contexts.map(c => '<div><span>' + html(c.title) + '</span><p>' + html(c.noteZh) + '</p></div>').join('') + '</div>' : '') +
+      (s.confusables?.length ? '<section class="notebook-contrast" aria-label="易混辨析">' + s.confusables.map(c => '<div><h3 class="english"><span lang="en">' + html(w.word) + '</span><span class="notebook-versus">vs.</span><span lang="en">' + html(c.word) + '</span></h3><p>' + html(c.noteZh) + '</p></div>').join('') + '</section>' : '') +
+      '</div></article>';
+  }).join('');
+  const extras = (w.wordFormation?.length || w.memoryHintZh) ? '<div class="notebook-extras">' +
+    (w.wordFormation?.length ? '<section><h3>词根词缀</h3>' + w.wordFormation.map(f => '<div class="notebook-formation"><strong class="english" lang="en">' + html(f.part) + '</strong><p>' + html(f.explanationZh) + '</p></div>').join('') + '</section>' : '') +
+    (w.memoryHintZh ? '<section><h3>记忆提示</h3><p>' + html(w.memoryHintZh) + '</p></section>' : '') + '</div>' : '';
+  return '<div class="word-notebook">' + senses + extras + '<p class="sr-only">' + html(w.sourceNote) + '</p></div>';
 }
 function highlight(text, terms) {
   const phrases = [...new Set((Array.isArray(terms) ? terms : [terms]).filter(Boolean))].sort((a,b) => b.length-a.length);
@@ -60,7 +63,7 @@ function highlight(text, terms) {
 }
 export function wordRow(w,ctx,actions='') {
   const wp=ctx.store.value.words[w.id],status=wordState(w,ctx.store.value);
-  return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}${ipaLabel(w)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
+  return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}${ipaLabel(w)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].definitionZh ?? w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
 }
 export function empty(message='当前范围没有词条。',ctx) { return `<div class="empty"><span class="empty-symbol">↗</span><h2>暂无词条</h2><p>${html(message)}</p>${ctx?.pending&&!ctx.drafts?`<a class="button primary" href="${link('index.html',{drafts:1})}">体验 ${ctx.pending} 词测试版 →</a>`:`<a class="button" href="${link('library.html')}">浏览词库</a>`}</div>`; }
 export async function boot(page) {

@@ -39,7 +39,8 @@
           {
             "phrase": "rarely + verb",
             "meaningZh": "很少做某事",
-            "exampleEn": "She rarely watches TV."
+            "exampleEn": "She rarely watches TV.",
+            "exampleZh": "她很少看电视。"
           }
         ],
         "contexts": [
@@ -62,7 +63,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "不经常；仅在极少数时候。"
       }
     ],
     "wordFormation": [
@@ -106,7 +108,8 @@
           {
             "phrase": "seldom see",
             "meaningZh": "很少看到",
-            "exampleEn": "I seldom see her on campus."
+            "exampleEn": "I seldom see her on campus.",
+            "exampleZh": "我很少在校园里见到她。"
           }
         ],
         "contexts": [
@@ -129,7 +132,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "只在少数时候发生；几乎从不发生。"
       }
     ],
     "sourceNote": "释义、侧重点和例句为项目原创测试稿，待人工校对；等级为项目估计。"
@@ -169,7 +173,8 @@
           {
             "phrase": "barely enough",
             "meaningZh": "勉强足够",
-            "exampleEn": "We have barely enough time to catch the train."
+            "exampleEn": "We have barely enough time to catch the train.",
+            "exampleZh": "我们的时间只勉强够赶上火车。"
           }
         ],
         "contexts": [
@@ -188,7 +193,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "刚刚达到某个限度；数量或程度极小。"
       }
     ],
     "wordFormation": [
@@ -234,7 +240,8 @@
           {
             "phrase": "retrieve data",
             "meaningZh": "检索或取回数据",
-            "exampleEn": "The system can retrieve data in seconds."
+            "exampleEn": "The system can retrieve data in seconds.",
+            "exampleZh": "系统可以在几秒内检索出数据。"
           }
         ],
         "contexts": [
@@ -253,7 +260,8 @@
           "discard-verb-01",
           "accumulate-verb-01",
           "decompose-verb-01"
-        ]
+        ],
+        "definitionZh": "取回遗留、丢失或存放在某处的东西。"
       }
     ],
     "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
@@ -290,7 +298,8 @@
           {
             "phrase": "discard old equipment",
             "meaningZh": "淘汰旧设备",
-            "exampleEn": "The office will discard old equipment this month."
+            "exampleEn": "The office will discard old equipment this month.",
+            "exampleZh": "办公室将在本月淘汰旧设备。"
           }
         ],
         "contexts": [
@@ -309,7 +318,8 @@
           "retrieve-verb-01",
           "accumulate-verb-01",
           "grant-verb-01"
-        ]
+        ],
+        "definitionZh": "因不再需要某物而将其丢弃或停止使用。"
       }
     ],
     "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
@@ -349,7 +359,8 @@
           {
             "phrase": "accumulate knowledge",
             "meaningZh": "积累知识",
-            "exampleEn": "We accumulate knowledge through practice."
+            "exampleEn": "We accumulate knowledge through practice.",
+            "exampleZh": "我们通过实践积累知识。"
           }
         ],
         "contexts": [
@@ -368,7 +379,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "grant-verb-01"
-        ]
+        ],
+        "definitionZh": "经过一段时间逐渐聚集或增加。"
       }
     ],
     "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
@@ -408,7 +420,8 @@
           {
             "phrase": "decompose naturally",
             "meaningZh": "自然分解",
-            "exampleEn": "Food scraps can decompose naturally in compost."
+            "exampleEn": "Food scraps can decompose naturally in compost.",
+            "exampleZh": "食物残渣可以在堆肥中自然分解。"
           }
         ],
         "contexts": [
@@ -427,7 +440,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "在死亡或被丢弃后，自然分解成更简单的物质。"
       }
     ],
     "wordFormation": [
@@ -471,7 +485,8 @@
           {
             "phrase": "grant permission",
             "meaningZh": "给予许可",
-            "exampleEn": "Only the owner can grant permission."
+            "exampleEn": "Only the owner can grant permission.",
+            "exampleZh": "只有所有者才能给予许可。"
           }
         ],
         "contexts": [
@@ -490,7 +505,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "正式给予某人许可、权利或其所申请的某种利益。"
       },
       {
         "senseId": "grant-verb-02",
@@ -508,7 +524,8 @@
           {
             "phrase": "grant that ...",
             "meaningZh": "承认……",
-            "exampleEn": "I grant that we need more time."
+            "exampleEn": "I grant that we need more time.",
+            "exampleZh": "我承认我们需要更多时间。"
           }
         ],
         "contexts": [
@@ -527,7 +544,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "承认某个说法属实，尤其是在提出异议之前。"
       }
     ],
     "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
@@ -561,7 +579,8 @@
           {
             "phrase": "raise awareness of",
             "meaningZh": "提高对……的认识",
-            "exampleEn": "Schools can raise awareness of climate change."
+            "exampleEn": "Schools can raise awareness of climate change.",
+            "exampleZh": "学校可以提高人们对气候变化的认识。"
           }
         ],
         "contexts": [
@@ -580,7 +599,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "对某种情况、问题或事实存在的认识。"
       }
     ],
     "wordFormation": [
@@ -623,7 +643,8 @@
           {
             "phrase": "household appliance",
             "meaningZh": "家用电器",
-            "exampleEn": "A washing machine is a household appliance."
+            "exampleEn": "A washing machine is a household appliance.",
+            "exampleZh": "洗衣机是一种家用电器。"
           }
         ],
         "contexts": [
@@ -642,7 +663,8 @@
           "retrieve-verb-01",
           "discard-verb-01",
           "accumulate-verb-01"
-        ]
+        ],
+        "definitionZh": "用于完成某项特定家务的器具，通常是电器。"
       }
     ],
     "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。",
