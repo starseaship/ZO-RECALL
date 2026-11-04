@@ -10,7 +10,7 @@
 
 首批为 **10 个测试词、11 个义项**：rarely、seldom、barely、retrieve、discard、accumulate、decompose、grant、awareness、appliance。grant 包含两个义项，测验带义项提示。
 
-测试稿标记为 `needs-check`，不冒充已完成人工审核的内容。正式模式只加载 `reviewed`；从首页“进入测试版”体验待核查内容。等级为项目估计；未核实的音标留空。词条说明属于学习内容，不受界面精简文案规则影响。
+测试稿标记为 `needs-check`，不冒充已完成人工审核的内容。正式模式只加载 `reviewed`；从首页“进入测试版”体验待核查内容。等级为项目估计；首批 10 词已核对美式音标，发音来源与核对日期记录在 pronunciation 中；新增词未核实的音标仍留空。词条说明属于学习内容，不受界面精简文案规则影响。
 
 ## 本地运行
 

@@ -9,8 +9,10 @@
       "School"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "ˈrer.li",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/rarely",
+      "verifiedAt": "2026-11-04"
     },
     "definitionForbidden": [
       "rare",
@@ -82,8 +84,10 @@
       "School"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "ˈsel.dəm",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/seldom",
+      "verifiedAt": "2026-11-04"
     },
     "reviewStatus": "needs-check",
     "senses": [
@@ -140,8 +144,10 @@
       "TOEIC"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "ˈber.li",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/barely",
+      "verifiedAt": "2026-11-04"
     },
     "definitionForbidden": [
       "bare"
@@ -203,8 +209,10 @@
       "School"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "rɪˈtriːv",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/retrieve",
+      "verifiedAt": "2026-11-04"
     },
     "definitionForbidden": [
       "retrieval"
@@ -260,8 +268,10 @@
       "Academic"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "dɪˈskɑːrd",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/discard",
+      "verifiedAt": "2026-11-04"
     },
     "reviewStatus": "needs-check",
     "senses": [
@@ -314,8 +324,10 @@
       "TOEIC"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "əˈkjuː.mjə.leɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/accumulate",
+      "verifiedAt": "2026-11-04"
     },
     "definitionForbidden": [
       "accumulation"
@@ -371,8 +383,10 @@
       "School"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "ˌdiː.kəmˈpoʊz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/decompose",
+      "verifiedAt": "2026-11-04"
     },
     "definitionForbidden": [
       "decomposition"
@@ -434,8 +448,10 @@
       "Academic"
     ],
     "pronunciation": {
-      "ipa": "",
-      "accent": "en-US"
+      "ipa": "ɡrænt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/grant",
+      "verifiedAt": "2026-11-04"
     },
     "reviewStatus": "needs-check",
     "senses": [
@@ -573,7 +589,13 @@
         "explanationZh": "形容词 aware 加名词后缀 -ness，表示知晓或意识到的状态。"
       }
     ],
-    "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
+    "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。",
+    "pronunciation": {
+      "ipa": "əˈwer.nəs",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/awareness",
+      "verifiedAt": "2026-11-04"
+    }
   },
   {
     "id": "appliance-noun",
@@ -623,6 +645,12 @@
         ]
       }
     ],
-    "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。"
+    "sourceNote": "项目原创测试稿，待人工校对；等级为项目估计。",
+    "pronunciation": {
+      "ipa": "əˈplaɪ.əns",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/appliance",
+      "verifiedAt": "2026-11-04"
+    }
   }
 ]

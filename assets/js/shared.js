@@ -3,6 +3,7 @@ import { createProgressStore, wordState, dayKey } from './progress.js';
 export const $ = selector => document.querySelector(selector);
 export const html = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const labels = {new:'未开始',learning:'学习中',review:'待复习',mastered:'已掌握'};
+export const ipaLabel = w => w.pronunciation?.ipa ? ' <span class="ipa-inline" lang="en-US">/' + html(w.pronunciation.ipa.split('/').join('')) + '/</span>' : '';
 export const posLabels = {verb:'v.',adverb:'adv.',noun:'n.',adjective:'adj.',preposition:'prep.'};
 export const query = new URLSearchParams(location.search);
 export function link(path, params = {}) { const u = new URL(path,location.href); if (query.get('drafts') === '1') u.searchParams.set('drafts','1'); for (const [k,v] of Object.entries(params)) if (v != null && v !== '') u.searchParams.set(k,v); return `${u.pathname.split('/').pop()}${u.search}`; }
@@ -32,7 +33,7 @@ export function wordDetails(w, activeSense) {
 function highlight(text,word) { return html(text).replace(new RegExp(`\\b(${word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})\\b`,'ig'),'<mark>$1</mark>'); }
 export function wordRow(w,ctx,actions='') {
   const wp=ctx.store.value.words[w.id],status=wordState(w,ctx.store.value);
-  return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
+  return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}${ipaLabel(w)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
 }
 export function empty(message='当前范围没有词条。',ctx) { return `<div class="empty"><span class="empty-symbol">↗</span><h2>暂无词条</h2><p>${html(message)}</p>${ctx?.pending&&!ctx.drafts?`<a class="button primary" href="${link('index.html',{drafts:1})}">体验 ${ctx.pending} 词测试版 →</a>`:`<a class="button" href="${link('library.html')}">浏览词库</a>`}</div>`; }
 export async function boot(page) {
