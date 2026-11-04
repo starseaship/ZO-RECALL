@@ -1,4 +1,4 @@
-import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.2';
+import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.3';
 import { flatten, weightedOrder } from './quiz-engine.js';
 const ctx=await boot('study');
 if(ctx) {

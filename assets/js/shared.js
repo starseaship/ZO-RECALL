@@ -28,9 +28,36 @@ export function filterWords(ctx, {scope='all',category='',search='',pos='',level
   });
 }
 export function wordDetails(w, activeSense) {
-  return `<div class="detail-stack">${w.senses.map(s => `<article class="sense-detail" id="${html(s.senseId)}"><div class="eyebrow">${html(w.senses.length > 1 ? s.senseHintEn : '')}</div><section class="detail-section"><h3 class="detail-heading">核心释义 </h3><p class="definition">${html(s.definitionEn)}</p><p>${html(s.meaningZh)}</p></section>${s.nuanceZh?`<section class="detail-section"><h3 class="detail-heading">侧重点 </h3><p>${html(s.nuanceZh)}</p></section>`:''}${s.collocations?.length?`<section class="detail-section"><h3 class="detail-heading">常见搭配 </h3>${s.collocations.map(c=>`<p><strong class="english">${html(c.phrase)}</strong> · ${html(c.meaningZh)}</p>${c.exampleEn?`<p class="english muted">${html(c.exampleEn)}</p>`:''}`).join('')}</section>`:''}${s.contexts?.length?`<section class="detail-section"><h3 class="detail-heading">使用场景 </h3>${s.contexts.map(c=>`<p><strong>${html(c.title)}</strong> · ${html(c.noteZh)}</p>`).join('')}</section>`:''}<section class="detail-section"><h3 class="detail-heading">例句 </h3>${s.examples.map(e=>`<p class="example english">${highlight(e.en,w.word)}</p><p class="muted">${html(e.zh)}</p>`).join('')}</section>${s.confusables?.length?`<section class="detail-section"><h3 class="detail-heading">近义与易混 </h3>${s.confusables.map(c=>`<p><strong class="english">${html(c.word)}</strong> · ${html(c.noteZh)}</p>`).join('')}</section>`:''}</article>`).join('')}${w.wordFormation?.length?`<section class="detail-section"><h3 class="detail-heading">词根词缀 </h3>${w.wordFormation.map(f=>`<p><strong>${html(f.part)}</strong> · ${html(f.explanationZh)}</p>`).join('')}</section>`:''}${w.memoryHintZh?`<section class="detail-section"><h3 class="detail-heading">记忆提示 </h3><p>${html(w.memoryHintZh)}</p></section>`:''}<p class="tiny muted">${html(w.sourceNote)}${activeSense?'':''}</p></div>`;
+  return '<div class="detail-stack word-notes">' + w.senses.map(s => {
+    const terms = [w.word, ...(s.collocations ?? []).map(c => c.phrase)];
+    const usage = (s.collocations ?? []).map(c => '<div class="usage-pair"><div class="phrase-line"><strong class="english" lang="en">' + html(c.phrase) + '</strong><span>' + html(c.meaningZh) + '</span></div>' + (c.exampleEn ? '<p class="usage-example english" lang="en">' + highlight(c.exampleEn, terms) + '</p>' : '') + '</div>').join('');
+    const examples = (s.examples ?? []).map(e => '<figure class="example-pair"><blockquote class="english" lang="en">' + highlight(e.en, terms) + '</blockquote><figcaption>' + html(e.zh) + '</figcaption></figure>').join('');
+    return '<article class="sense-detail" id="' + html(s.senseId) + '">' +
+      (w.senses.length > 1 ? '<p class="sense-caption english">' + html(s.senseHintEn) + '</p>' : '') +
+      '<section class="meaning-group"><h3 class="sr-only">核心释义</h3><p class="learning-definition english" lang="en">' + html(s.definitionEn) + '</p><p class="learning-meaning">' + html(s.meaningZh) + '</p>' +
+      (s.nuanceZh ? '<div class="nuance-note"><h3 class="sr-only">侧重点</h3><p>' + html(s.nuanceZh) + '</p></div>' : '') + '</section>' +
+      '<section class="usage-group"><h3 class="notes-heading">' + (usage ? '搭配与例句' : '例句') + '</h3>' +
+      ((s.contexts ?? []).length ? '<div class="context-list">' + s.contexts.map(c => '<p class="context-line"><strong>' + html(c.title) + '</strong><span>' + html(c.noteZh) + '</span></p>').join('') + '</div>' : '') +
+      usage + examples + '</section>' +
+      ((s.confusables ?? []).length ? '<section class="compare-group"><h3 class="notes-heading">易混辨析</h3><dl class="compare-list">' + s.confusables.map(c => '<div class="compare-row"><dt class="english" lang="en">' + html(c.word) + '</dt><dd>' + html(c.noteZh) + '</dd></div>').join('') + '</dl></section>' : '') +
+      '</article>';
+  }).join('') +
+  ((w.wordFormation ?? []).length || w.memoryHintZh ? '<div class="notes-extras">' +
+    ((w.wordFormation ?? []).length ? '<section><h3 class="notes-heading">词根词缀</h3>' + w.wordFormation.map(f => '<div class="formation-pair"><strong class="english" lang="en">' + html(f.part) + '</strong><p>' + html(f.explanationZh) + '</p></div>').join('') + '</section>' : '') +
+    (w.memoryHintZh ? '<section><h3 class="notes-heading">记忆提示</h3><p>' + html(w.memoryHintZh) + '</p></section>' : '') + '</div>' : '') +
+  '<p class="sr-only">' + html(w.sourceNote) + '</p></div>';
 }
-function highlight(text,word) { return html(text).replace(new RegExp(`\\b(${word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})\\b`,'ig'),'<mark>$1</mark>'); }
+function highlight(text, terms) {
+  const phrases = [...new Set((Array.isArray(terms) ? terms : [terms]).filter(Boolean))].sort((a,b) => b.length-a.length);
+  if (!phrases.length) return html(text);
+  const pattern = new RegExp('\\b(?:' + phrases.map(t => t.replace(/[.*+?^{}$()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'gi');
+  let result = '', offset = 0;
+  for (const match of text.matchAll(pattern)) {
+    result += html(text.slice(offset, match.index)) + '<mark>' + html(match[0]) + '</mark>';
+    offset = match.index + match[0].length;
+  }
+  return result + html(text.slice(offset));
+}
 export function wordRow(w,ctx,actions='') {
   const wp=ctx.store.value.words[w.id],status=wordState(w,ctx.store.value);
   return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}${ipaLabel(w)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
