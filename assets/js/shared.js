@@ -1,4 +1,6 @@
-import { loadData } from './data.js';
+import { collectionFields, bindCollectionFields, matchesCollection, countHeadwords, collectionLabel } from './collections.js?v=20261104.5';
+export { countHeadwords, collectionLabel };
+import { loadData } from './data.js?v=20261104.5';
 import { createProgressStore, wordState, dayKey } from './progress.js';
 export const $ = selector => document.querySelector(selector);
 export const html = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -6,7 +8,7 @@ export const labels = {new:'未开始',learning:'学习中',review:'待复习',m
 export const ipaLabel = w => w.pronunciation?.ipa ? ' <span class="ipa-inline" lang="en-US">/' + html(w.pronunciation.ipa.split('/').join('')) + '/</span>' : '';
 export const posLabels = {verb:'v.',adverb:'adv.',noun:'n.',adjective:'adj.',preposition:'prep.'};
 export const query = new URLSearchParams(location.search);
-export function link(path, params = {}) { const u = new URL(path,location.href); if (query.get('drafts') === '1') u.searchParams.set('drafts','1'); for (const [k,v] of Object.entries(params)) if (v != null && v !== '') u.searchParams.set(k,v); return `${u.pathname.split('/').pop()}${u.search}`; }
+export function link(path, params = {}) { const u = new URL(path,location.href); if (query.get('drafts') === '1') u.searchParams.set('drafts','1'); for (const k of ['collection','exam','source','batch']) if(query.get(k)) u.searchParams.set(k,query.get(k)); for (const [k,v] of Object.entries(params)) if (v != null && v !== '') u.searchParams.set(k,v); return `${u.pathname.split('/').pop()}${u.search}`; }
 export function notice(message) { const el = $('#toast'); el.textContent = message; el.hidden = false; clearTimeout(notice.timer); notice.timer = setTimeout(() => { el.hidden = true; },7000); }
 export function speak(word,accent='en-US') {
   if (!('speechSynthesis' in window) || !window.SpeechSynthesisUtterance) { notice('当前浏览器不支持语音，请使用系统支持的浏览器。'); return; }
@@ -15,13 +17,14 @@ export function speak(word,accent='en-US') {
 export const soundButton = w => `<button class="icon-button" data-speak="${html(w.id)}" aria-label="朗读 ${html(w.word)}" title="朗读"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 4 5 9H2v6h3l6 5V4Zm4 4a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></svg></button>`;
 export function getBilingual() { try { return localStorage.getItem('evl_language') === 'bilingual'; } catch { return false; } }
 export function setBilingual(value) { document.body.classList.toggle('bilingual',value); try { localStorage.setItem('evl_language',value?'bilingual':'english'); } catch { notice('语言设置仅在当前页面生效。'); } }
-export function filterWords(ctx, {scope='all',category='',search='',pos='',level='',state=''} = {}) {
+export function filterWords(ctx, {scope='all',category='',search='',pos='',level='',state='',collection=query.get('collection')??'',exam=query.get('exam')??'',source=query.get('source')??'',batch=query.get('batch')??''} = {}) {
   return ctx.words.filter(w => {
     const status = wordState(w,ctx.store.value), wp=ctx.store.value.words[w.id];
     if (scope === 'unmastered' && status === 'mastered') return false;
     if (scope === 'favorites' && !wp?.favorite) return false;
     if (scope === 'wrong' && !w.senses.some(s => wp?.senses[s.senseId]?.lastQuizCorrect === false)) return false;
     if (scope === 'review' && status !== 'review' && !wp?.favorite) return false;
+    if (!matchesCollection(w,ctx.manifest,{collection,exam,source,batch})) return false;
     if (category && !w.categories.includes(category)) return false;
     if (pos && w.partOfSpeech !== pos || level && w.level !== level || state && status !== state) return false;
     return !search || JSON.stringify([w.word,...w.senses.map(s => [s.meaningZh,s.definitionEn,s.collocations])]).toLowerCase().includes(search.toLowerCase());
@@ -65,7 +68,7 @@ export function wordRow(w,ctx,actions='') {
   const wp=ctx.store.value.words[w.id],status=wordState(w,ctx.store.value);
   return `<article class="word-row"><a class="word-main" href="${link('library.html',{word:w.id})}"><strong class="english">${html(w.word)}</strong><span class="pos">${html(posLabels[w.partOfSpeech]??w.partOfSpeech)}${ipaLabel(w)}</span><p>${html(w.senses[0].definitionEn)}</p><p class="zh muted">${html(w.senses[0].definitionZh ?? w.senses[0].meaningZh)}</p></a><div class="row-actions"><span class="status ${status}">${labels[status]}</span><button class="star ${wp?.favorite?'selected':''}" data-favorite="${html(w.id)}" aria-pressed="${!!wp?.favorite}" aria-label="${wp?.favorite?'取消收藏':'收藏'} ${html(w.word)}">${wp?.favorite?'★':'☆'}</button>${actions}</div></article>`;
 }
-export function empty(message='当前范围没有词条。',ctx) { return `<div class="empty"><span class="empty-symbol">↗</span><h2>暂无词条</h2><p>${html(message)}</p>${ctx?.pending&&!ctx.drafts?`<a class="button primary" href="${link('index.html',{drafts:1})}">体验 ${ctx.pending} 词测试版 →</a>`:`<a class="button" href="${link('library.html')}">浏览词库</a>`}</div>`; }
+export function empty(message='当前范围没有词条。',ctx) { return `<div class="empty"><span class="empty-symbol">↗</span><h2>暂无词条</h2><p>${html(message)}</p>${ctx?.pending&&!ctx.drafts?`<a class="button primary" href="${link('index.html',{drafts:1})}">浏览待核查词库 →</a>`:`<a class="button" href="${link('library.html')}">浏览词库</a>`}</div>`; }
 export async function boot(page) {
   $('#app').innerHTML='<div class="empty"><p>正在整理你的词库…</p></div>';
   $('#site-header').innerHTML=`<a class="brand" href="${link('index.html')}" aria-label="ZO-RECALL 首页"><span class="brand-mark">zo<span>·</span></span><span>ZO-RECALL</span></a><label class="language-toggle"><input type="checkbox" id="language"> EN / 中文辅助</label>`;
@@ -76,7 +79,7 @@ export async function boot(page) {
     const data=await loadData();
     const ctx={...data,store:createProgressStore(data.allWords,notice)};
     $('#mode-banner').hidden=!data.drafts;
-    if (data.drafts) $('#mode-banner').innerHTML=`测试词库 · ${data.pending} 个词条待人工核查 <a href="${location.pathname.split('/').pop() || 'index.html'}">退出测试</a>`;
+    if (data.drafts) $('#mode-banner').innerHTML=`内容待核查 <a href="${location.pathname.split('/').pop() || 'index.html'}">仅看已核查</a>`;
     if (data.warnings.length) notice(`${data.warnings.length} 项词库加载提示：${data.warnings.slice(0,2).join('；')}`);
     document.addEventListener('click',event=>{
       const button=event.target.closest('[data-speak]'); if (button) { const w=data.words.find(w=>w.id===button.dataset.speak); if(w) speak(w.word,w.pronunciation?.accent); }
@@ -92,4 +95,25 @@ export function stats(ctx) {
   return {today:ctx.words.filter(w=>{const wp=ctx.store.value.words[w.id];return w.senses.some(s=>{const time=wp?.senses[s.senseId]?.lastStudiedAt;return time&&dayKey(new Date(time))===dayKey();});}).length, mastered:ctx.words.filter(w=>wordState(w,ctx.store.value)==='mastered').length,review:ctx.words.filter(w=>wordState(w,ctx.store.value)==='review').length,accuracy:correct+wrong?`${Math.round(100*correct/(correct+wrong))}%`:'—',answers:correct+wrong};
 }
 export function scopeOptions(selected='all') { return [['all','全词库'],['unmastered','未掌握'],['favorites','收藏'],['wrong','错题'],['review','待复习与收藏']].map(([k,v])=>`<option value="${k}" ${k===selected?'selected':''}>${v}</option>`).join(''); }
-export const categoryOptions = ctx => `<option value="">所有分类</option>${ctx.manifest.categories.map(c=>`<option>${html(c)}</option>`).join('')}`;
+
+export function collectionControls(ctx) { return collectionFields(ctx.manifest,Object.fromEntries(query)); }
+export function bindCollections(form,ctx) {
+  bindCollectionFields(form,ctx.manifest,selection=>{
+    for(const key of ['collection','exam','source','batch']) { if(selection[key])query.set(key,selection[key]);else query.delete(key); }
+    const current=new URL(location.href);
+    for(const key of ['collection','exam','source','batch']) { if(selection[key])current.searchParams.set(key,selection[key]);else current.searchParams.delete(key); }
+    history.replaceState(null,'',current.pathname+current.search+current.hash);
+    document.querySelectorAll('#site-nav a,.brand').forEach(anchor=>{
+      const url=new URL(anchor.href);
+      for(const key of ['collection','exam','source','batch']) { if(selection[key])url.searchParams.set(key,selection[key]);else url.searchParams.delete(key); }
+      anchor.href=url.pathname+url.search;
+    });
+  });
+}
+export function collectionCards(ctx) {
+  return `<section class="collection-catalog">${(ctx.manifest.collections??[]).map(c=>{
+    const words=ctx.allWords.filter(w=>w.collectionIds?.includes(c.id));
+    const params={collection:c.id,exam:c.exam,source:c.source,batch:c.batch,...(ctx.drafts||words.every(w=>w.reviewStatus!=='reviewed')?{drafts:1}:{})};
+    return `<a class="collection-card" href="${link('library.html',params)}"><div><span class="collection-path">${html(c.exam)} / ${html(c.source)}</span><strong>${html(c.batch)}</strong></div><span>${countHeadwords(words)} 词 →</span></a>`;
+  }).join('')}</section>`;
+}

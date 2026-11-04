@@ -1,9 +1,9 @@
-import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.4';
+import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, collectionControls, bindCollections, query, ipaLabel } from './shared.js?v=20261104.5';
 import { flatten, weightedOrder } from './quiz-engine.js';
 const ctx=await boot('study');
 if(ctx) {
-  $('#app').innerHTML=`<section class="page-heading"><h1>背单词</h1></section><form id="study-filters" class="inline-filters"><label class="field">范围<select name="scope">${scopeOptions(query.get('scope')??'all')}</select></label><label class="field">分类<select name="category">${categoryOptions(ctx)}</select></label><label class="check-label"><input type="checkbox" id="reverse" ${query.get('reverse')==='1'?'checked':''}> 看释义背词</label><button class="text-button" type="button" id="reset-range" ${query.has('word')?'':'hidden'}>显示全部词</button></form><div id="study-content"></div>`;
-  if(query.get('category')) $('#study-filters [name="category"]').value=query.get('category');
+  $('#app').innerHTML=`<section class="page-heading"><h1>背单词</h1></section><form id="study-filters" class="inline-filters"><label class="field">范围<select name="scope">${scopeOptions(query.get('scope')??'all')}</select></label>${collectionControls(ctx)}<label class="check-label"><input type="checkbox" id="reverse" ${query.get('reverse')==='1'?'checked':''}> 看释义背词</label><button class="text-button" type="button" id="reset-range" ${query.has('word')?'':'hidden'}>显示全部词</button></form><div id="study-content"></div>`;
+  bindCollections($('#study-filters'),ctx);
   let queue=[],index=0,wordId=query.get('word'),revealed=false;
   const build=()=>{const values=Object.fromEntries(new FormData($('#study-filters')));let words=filterWords(ctx,values);if(wordId)words=words.filter(w=>w.id===wordId);const flat=flatten(words);const review=['review','wrong'].includes(values.scope);const repeats=review?flat.flatMap(x=>{const p=ctx.store.value.words[x.word.id]?.senses[x.sense.senseId];return Array(p?.lastRating==='unknown'?2:p?.lastRating==='unsure'||p?.lastQuizCorrect===false?1:0).fill(x);}):[];queue=review?weightedOrder([...flat,...repeats],ctx.store.value):flat;index=0;render(true);};
   const render=(seen=false)=>{

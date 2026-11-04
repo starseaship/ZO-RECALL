@@ -1,4 +1,4 @@
-import { validateManifest, validateWord } from './schema.js';
+import { validateManifest, validateWord } from './schema.js?v=20261104.5';
 export async function loadData() {
   const warnings = [];
   const response = await fetch('data/manifest.json', {cache:'no-store'});
@@ -13,7 +13,7 @@ export async function loadData() {
   if (batches.every(b => b.status === 'rejected')) throw new Error(batches.map(b => b.reason.message).join('；'));
   const all = [];
   for (const batch of batches) { if (batch.status === 'fulfilled') all.push(...batch.value); else warnings.push(batch.reason.message); }
-  const valid = all.filter(w => { const e = validateWord(w, manifest.categories); if (e.length) { console.warn('跳过词条', w?.id, e); warnings.push(`跳过无效词条 ${w?.id ?? '?'}`); } return !e.length; });
+  const valid = all.filter(w => { const e = validateWord(w, manifest.categories, manifest.collections?.map(c=>c.id)); if (e.length) { console.warn('跳过词条', w?.id, e); warnings.push(`跳过无效词条 ${w?.id ?? '?'}`); } return !e.length; });
   const ids = new Map(), senses = new Map();
   for (const w of valid) { ids.set(w.id, (ids.get(w.id) ?? 0) + 1); for (const s of w.senses) senses.set(s.senseId, (senses.get(s.senseId) ?? 0) + 1); }
   const unique = valid.filter(w => { const ok = ids.get(w.id) === 1 && w.senses.every(s => senses.get(s.senseId) === 1); if (!ok) warnings.push(`跳过重复标识的词条 ${w.id}`); return ok; });

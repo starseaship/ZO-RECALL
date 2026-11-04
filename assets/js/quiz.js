@@ -1,9 +1,9 @@
-import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, categoryOptions, query, ipaLabel } from './shared.js?v=20261104.4';
+import { boot, $, html, link, empty, soundButton, wordDetails, filterWords, scopeOptions, collectionControls, bindCollections, query, ipaLabel } from './shared.js?v=20261104.5';
 import { flatten, createQuiz, weightedOrder } from './quiz-engine.js';
 const ctx=await boot('quiz');
 if(ctx) {
-  $('#app').innerHTML=`<section class="page-heading"><h1>英文释义四选一</h1></section><form id="quiz-settings" class="setup-panel"><div class="filter-grid"><label class="field">范围<select name="scope">${scopeOptions(query.get('scope')??'all')}</select></label><label class="field">分类<select name="category">${categoryOptions(ctx)}</select></label><label class="field">难度<select name="difficulty" aria-label="难度"><option value="easy">Easy</option><option value="normal">Normal</option><option value="hard">Hard</option></select></label><label class="field">题量<select name="count"><option value="10">10 题</option><option value="5">5 题</option><option value="20">20 题</option></select></label></div><div class="button-row"><label class="check-label"><input name="sound" type="checkbox" checked> 发音按钮</label><button class="button primary" type="submit">开始测验 →</button></div>${query.has('word')?'<p class="tiny">仅测验所选词条 <button type="button" id="quiz-all" class="text-button">取消限定</button></p>':''}</form><div id="quiz-content" aria-live="polite"></div>`;
-  if(query.get('category')) $('#quiz-settings [name="category"]').value=query.get('category');
+  $('#app').innerHTML=`<section class="page-heading"><h1>英文释义四选一</h1></section><form id="quiz-settings" class="setup-panel"><div class="filter-grid">${collectionControls(ctx)}<label class="field">范围<select name="scope">${scopeOptions(query.get('scope')??'all')}</select></label><label class="field">难度<select name="difficulty" aria-label="难度"><option value="easy">Easy</option><option value="normal">Normal</option><option value="hard">Hard</option></select></label><label class="field">题量<select name="count"><option value="10">10 题</option><option value="5">5 题</option><option value="20">20 题</option></select></label></div><div class="button-row"><label class="check-label"><input name="sound" type="checkbox" checked> 发音按钮</label><button class="button primary" type="submit">开始测验 →</button></div>${query.has('word')?'<p class="tiny">仅测验所选词条 <button type="button" id="quiz-all" class="text-button">取消限定</button></p>':''}</form><div id="quiz-content" aria-live="polite"></div>`;
+  bindCollections($('#quiz-settings'),ctx);
   let questions=[],index=0,results=[],locked=false,selectedWord=query.get('word'),sound=true,shortage='';
   if($('#quiz-all'))$('#quiz-all').onclick=()=>{selectedWord=null;$('#quiz-all').parentElement.remove();};
   const render=()=>{
@@ -23,7 +23,7 @@ if(ctx) {
     e.preventDefault();const values=Object.fromEntries(new FormData($('#quiz-settings')));sound=values.sound==='on';let words=filterWords(ctx,values);if(selectedWord)words=words.filter(w=>w.id===selectedWord);
     let targets=flatten(words);if(values.scope==='wrong')targets=targets.filter(x=>ctx.store.value.words[x.word.id]?.senses[x.sense.senseId]?.lastQuizCorrect===false);
     const isReview=['review','wrong'].includes(values.scope),ordered=isReview?weightedOrder(targets,ctx.store.value):targets;
-    const built=createQuiz(ordered,flatten(ctx.words),values.difficulty,Number(values.count),Math.random,isReview);questions=built.questions;index=0;results=[];
+    const built=createQuiz(ordered,flatten(filterWords(ctx,{exam:values.exam,source:values.source,batch:values.batch})),values.difficulty,Number(values.count),Math.random,isReview);questions=built.questions;index=0;results=[];
     if(!questions.length){$('#quiz-content').innerHTML=empty(words.length?'此范围没有符合难度规则的题：无法找到三个互不冲突的干扰项。请改用 Easy 或扩大词库。':'当前范围没有可测验词条。',ctx);return;}
     shortage=questions.length<Number(values.count)?`本轮 ${questions.length} 题。${built.skipped.length?`${built.skipped.join('、')} 缺少合格干扰项。`:'所选范围可用义项不足。'}`:built.skipped.length?`跳过 ${built.skipped.join('、')}：缺少合格干扰项。`:'';
     $('#quiz-settings').hidden=true;render();

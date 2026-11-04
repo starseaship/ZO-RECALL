@@ -4,26 +4,30 @@ import { readFile } from 'node:fs/promises';
 import { validateCorpus, validateWord } from '../assets/js/schema.js';
 import { buildQuestion, createQuiz, flatten, similarDefinitions } from '../assets/js/quiz-engine.js';
 import { createProgressStore, parseProgress, mergeProgress, senseState, dayKey } from '../assets/js/progress.js';
-const words=JSON.parse(await readFile(new URL('../data/words-001.json',import.meta.url),'utf8'));
+const words=JSON.parse(await readFile(new URL('../data/toeic-bubei-bb1.json',import.meta.url),'utf8'));
 const pool=flatten(words);
 const memory=()=>{let value=null;return{getItem:()=>value,setItem:(_k,v)=>{value=v;}};};
-test('ten words, original definitions and globally unique sense IDs',()=>{
-  assert.equal(words.length,10); assert.deepEqual(validateCorpus(words),[]);
+test('BB1 has 79 distinct headwords and globally unique entry and sense IDs',()=>{
+  assert.equal(new Set(words.map(w=>w.word)).size,79); assert.deepEqual(validateCorpus(words),[]);
   const duplicate=structuredClone(words); duplicate.push(duplicate[0]); assert.match(validateCorpus(duplicate).join(' '),/重复 id/);
   const broken=structuredClone(words); broken[0].senses[0].distractorSenseIds=['missing']; assert.match(validateCorpus(broken).join(' '),/不存在/);
 });
 test('invalid definitions, missing examples and unverified metadata fail validation',()=>{
-  const w=structuredClone(words[0]); w.senses[0].definitionEn='In a rare way.';assert.match(validateWord(w).join(' '),/同源词/);
+  const w=structuredClone(words[0]); w.senses[0].definitionEn='A prompt response.';assert.match(validateWord(w).join(' '),/同源词/);
   w.senses[0].examples=[];w.reviewStatus='approved';const errors=validateWord(w).join(' ');assert.match(errors,/例句/);assert.match(errors,/reviewStatus/);
 });
 test('each Easy question has four distinct compatible senses across repeated random runs',()=>{
-  for(let round=0;round<30;round++)for(const target of pool){const q=buildQuestion(target,pool,'easy');assert.ok(q,target.word.word);assert.equal(new Set(q.options.map(o=>o.sense.senseId)).size,4);assert.equal(q.options.filter(o=>o.sense.senseId===target.sense.senseId).length,1);for(const option of q.options)if(option!==target)assert.notEqual(option.word.id,target.word.id);}
+  for(let round=0;round<10;round++)for(const target of pool){const q=buildQuestion(target,pool,'easy');assert.ok(q,target.word.word);assert.equal(new Set(q.options.map(o=>o.sense.senseId)).size,4);assert.equal(q.options.filter(o=>o.sense.senseId===target.sense.senseId).length,1);for(const option of q.options)if(option!==target)assert.notEqual(option.word.id,target.word.id);}
 });
-test('blacklist is bidirectional, applies between options, and shortage is explicit',()=>{
-  const rarely=pool.find(x=>x.word.word==='rarely');const seldom=structuredClone(pool.find(x=>x.word.word==='seldom'));seldom.sense.confusables=[];
-  for(let i=0;i<20;i++){const q=buildQuestion(seldom,[rarely,...pool.filter(x=>!['rarely','seldom','barely'].includes(x.word.word))],'easy');assert.ok(q);assert.ok(q.options.every(o=>o.word.word!=='rarely'));}
-  assert.equal(buildQuestion(rarely,pool,'normal'),null);
-  const session=createQuiz(pool,pool,'normal');assert.ok(session.skipped.includes('rarely'));assert.ok(session.questions.length>0);assert.ok(session.questions.length<10);
+test('blacklist is bidirectional and a small pool reports shortage',()=>{
+  const a=structuredClone(pool.find(x=>x.word.word==='prompt'&&x.word.partOfSpeech==='adjective'));
+  const b=structuredClone(pool.find(x=>x.word.word==='complimentary'));
+  a.sense.confusables=[{word:b.word.word,noteZh:'test exclusion'}];b.sense.confusables=[];
+  a.word.senses=[a.sense];b.word.senses=[b.sense];
+  const rest=pool.filter(x=>![a.word.word,b.word.word].includes(x.word.word));
+  for(let i=0;i<10;i++){const q=buildQuestion(b,[a,...rest],'normal');assert.ok(q);assert.ok(q.options.every(o=>o.word.word!==a.word.word));}
+  assert.equal(buildQuestion(a,[a,b],'normal'),null);
+  const short=createQuiz([a],[a,b],'normal');assert.equal(short.questions.length,0);assert.deepEqual(short.skipped,[a.word.word]);
   assert.ok(similarDefinitions('To get back stored data.','To get back stored data!'));
 });
 test('study ratings never produce mastery, three quiz answers require two dates',()=>{

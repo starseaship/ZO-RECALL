@@ -1,0 +1,4946 @@
+[
+  {
+    "id": "prompt-adj",
+    "word": "prompt",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prɑːmpt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/prompt",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "prompt-adj-01",
+        "definitionEn": "Done quickly and without unnecessary delay.",
+        "definitionZh": "迅速完成且没有不必要的延误。",
+        "meaningZh": "迅速的；及时的",
+        "nuanceZh": "强调回应或行动来得及时，不一定表示做事速度始终很快。",
+        "examples": [
+          {
+            "en": "Thank you for your prompt response to my email.",
+            "zh": "感谢你及时回复我的邮件。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prompt response",
+            "meaningZh": "及时回复"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "商务沟通",
+            "noteZh": "用于回复、付款和服务的及时性。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "quick",
+            "noteZh": "quick 范围更广；prompt 常强调没有耽搁地及时回应。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "prompt-verb",
+    "word": "prompt",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prɑːmpt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/prompt",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "prompt-verb-01",
+        "definitionEn": "To cause someone to act or make a decision.",
+        "definitionZh": "促使某人采取行动或作出决定。",
+        "meaningZh": "促使；激起",
+        "nuanceZh": "常用 prompt someone to do；和形容词及时的属于不同词性。",
+        "examples": [
+          {
+            "en": "The complaint may prompt the company to review its policy.",
+            "zh": "这次投诉可能促使公司重新审视政策。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prompt someone to do",
+            "meaningZh": "促使某人做某事"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "原因与行动",
+            "noteZh": "用于说明是什么引发了某个行动。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "cause",
+            "noteZh": "cause 更广泛地表示造成；prompt 常强调触发某人的行动或决定。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "complimentary-adj",
+    "word": "complimentary",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌkɑːm.pləˈmen.t̬ɚ.i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/complimentary",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "complimentary-adj-01",
+        "definitionEn": "Provided free of charge, often as a courtesy to a customer.",
+        "definitionZh": "免费提供，常作为对顾客的礼遇。",
+        "meaningZh": "免费的；赠送的",
+        "nuanceZh": "此处是商家免费提供的意思；另可表示赞美的，需结合搭配判断。",
+        "examples": [
+          {
+            "en": "Hotel guests receive a complimentary breakfast each morning.",
+            "zh": "酒店住客每天早晨都可享用免费早餐。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "complimentary breakfast",
+            "meaningZh": "免费早餐"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "酒店与服务",
+            "noteZh": "用于早餐、饮品、赠票等免费项目。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "complementary",
+            "noteZh": "complementary 表示互补的；complimentary 可表示免费的或赞美的。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Free service or gift"
+      },
+      {
+        "senseId": "complimentary-adj-02",
+        "senseHintEn": "Praise or admiration",
+        "definitionEn": "Expressing praise or admiration for someone or something.",
+        "definitionZh": "表达对某人或某事物的赞扬或欣赏。",
+        "meaningZh": "赞美的；赞许的",
+        "nuanceZh": "此义项强调称赞，和免费赠送的义项不同。",
+        "examples": [
+          {
+            "en": "The client was complimentary about our customer service.",
+            "zh": "客户对我们的客户服务给予了赞扬。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "complimentary remarks",
+            "meaningZh": "赞美的话"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "barely-adv",
+    "word": "barely",
+    "partOfSpeech": "adverb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈber.li",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/barely",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "barely-adv-01",
+        "definitionEn": "Only just; by a very small amount or to a very small degree.",
+        "definitionZh": "刚刚达到某个限度；数量或程度极小。",
+        "meaningZh": "勉强；几乎不",
+        "nuanceZh": "强调刚刚够或程度很低，不表示发生频率低。",
+        "examples": [
+          {
+            "en": "We have barely enough time to catch the train.",
+            "zh": "我们的时间只勉强够赶上火车。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "barely enough",
+            "meaningZh": "勉强足够"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "数量与程度",
+            "noteZh": "用于时间、空间或能力接近最低限度时。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "rarely",
+            "noteZh": "rarely 强调很少发生；barely 强调勉强达到或程度很低。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "bare + -ly",
+        "explanationZh": "bare 加副词后缀 -ly；此处的程度含义仍应结合例句记忆。"
+      }
+    ]
+  },
+  {
+    "id": "estate-noun",
+    "word": "estate",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪˈsteɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/estate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "estate-noun-01",
+        "definitionEn": "The land and buildings owned by a person or organization.",
+        "definitionZh": "个人或机构拥有的土地和建筑物。",
+        "meaningZh": "地产；房地产",
+        "nuanceZh": "此处侧重土地和建筑物；real estate 是常见的房地产表达。",
+        "examples": [
+          {
+            "en": "She works for a real estate company near the station.",
+            "zh": "她在车站附近的一家房地产公司工作。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "real estate",
+            "meaningZh": "房地产"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "房地产",
+            "noteZh": "用于土地、房产和地产公司的业务。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "property",
+            "noteZh": "property 可泛指财产或房产；estate 在此侧重成片土地及其建筑物。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Land and buildings"
+      },
+      {
+        "senseId": "estate-noun-02",
+        "senseHintEn": "Property left after a death",
+        "definitionEn": "All the money and property left by someone when they die.",
+        "definitionZh": "某人去世时留下的全部金钱和财产。",
+        "meaningZh": "遗产",
+        "nuanceZh": "此义项包含死者留下的各类资产，不只指房地产。",
+        "examples": [
+          {
+            "en": "The lawyer is responsible for managing the estate.",
+            "zh": "律师负责管理这笔遗产。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "manage an estate",
+            "meaningZh": "管理遗产"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "stock-noun",
+    "word": "stock",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "stɑːk",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/stock",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "stock-noun-01",
+        "definitionEn": "Goods kept available for sale or use.",
+        "definitionZh": "为销售或使用而储备的货物。",
+        "meaningZh": "库存；存货",
+        "nuanceZh": "此义项侧重可供应的货物；in stock 表示有现货，out of stock 表示缺货。",
+        "examples": [
+          {
+            "en": "The store has enough stock for the holiday season.",
+            "zh": "商店备有足够的存货供应假日旺季。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "in stock",
+            "meaningZh": "有现货"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "零售与仓储",
+            "noteZh": "用于查询货物是否充足或可立即供应。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "inventory",
+            "noteZh": "inventory 可指库存，也可指库存清单；stock 在此指储备的货物。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Goods available for sale"
+      },
+      {
+        "senseId": "stock-noun-02",
+        "senseHintEn": "Company ownership",
+        "definitionEn": "A share of ownership in a company, or such shares considered together.",
+        "definitionZh": "公司的所有权份额，或这些份额的总称。",
+        "meaningZh": "股票；股份",
+        "nuanceZh": "此义项表示公司所有权；与代表借贷关系的债券不同。",
+        "examples": [
+          {
+            "en": "Investors can buy stock in the company.",
+            "zh": "投资者可以买入这家公司的股票。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "buy stock",
+            "meaningZh": "购买股票"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "stock-verb",
+    "word": "stock",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "stɑːk",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/stock",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "stock-verb-01",
+        "definitionEn": "To keep a supply of goods available for sale or use.",
+        "definitionZh": "储备可供销售或使用的货物。",
+        "meaningZh": "备有；储备",
+        "nuanceZh": "此处是动词；stock up on 常表示提前购入或补足某物。",
+        "examples": [
+          {
+            "en": "We stock a wide range of office supplies.",
+            "zh": "我们备有种类齐全的办公用品。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "stock a range of products",
+            "meaningZh": "备有一系列产品"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "零售与仓储",
+            "noteZh": "用于商店或机构保持货物供应。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "store",
+            "noteZh": "store 强调把东西存放起来；stock 常强调备有供销售或使用的货物。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "rise-verb",
+    "word": "rise",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "raɪz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/rise",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "rise-verb-01",
+        "definitionEn": "To move upward or become greater in amount or level.",
+        "definitionZh": "向上移动，或数量、水平变得更高。",
+        "meaningZh": "上升；增加",
+        "nuanceZh": "通常是不及物动词，事物自身上升；过去式 rose，过去分词 risen。",
+        "examples": [
+          {
+            "en": "Shipping costs may rise again next month.",
+            "zh": "运输费用下个月可能再次上涨。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rise sharply",
+            "meaningZh": "急剧上升"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "价格与数据",
+            "noteZh": "用于费用、需求、数量或水平的上升。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "raise",
+            "noteZh": "raise 通常需要宾语，表示使某物提高；rise 表示自身上升。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "bond-noun",
+    "word": "bond",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "bɑːnd",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/bond",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "bond-noun-01",
+        "definitionEn": "An investment in which money is lent to a government or company in return for interest.",
+        "definitionZh": "向政府或公司借出资金并获取利息的一种投资。",
+        "meaningZh": "债券",
+        "nuanceZh": "此义项指金融工具，并非人与人之间的情感联系。",
+        "examples": [
+          {
+            "en": "The company plans to issue a new bond this year.",
+            "zh": "公司计划今年发行一种新债券。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "issue a bond",
+            "meaningZh": "发行债券"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "金融",
+            "noteZh": "用于公司或政府的融资和投资。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "stock",
+            "noteZh": "stock 的股票义项代表所有权份额；bond 通常代表债权。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Financial investment"
+      },
+      {
+        "senseId": "bond-noun-02",
+        "senseHintEn": "Connection between people",
+        "definitionEn": "A close connection between people or groups.",
+        "definitionZh": "人或群体之间的密切联系。",
+        "meaningZh": "纽带；联系",
+        "nuanceZh": "此义项表示关系，不是金融工具。",
+        "examples": [
+          {
+            "en": "Shared goals create a strong bond between team members.",
+            "zh": "共同的目标在团队成员之间建立了牢固的联系。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a strong bond",
+            "meaningZh": "牢固的纽带"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "strip-noun",
+    "word": "strip",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "strɪp",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/strip",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "strip-noun-01",
+        "definitionEn": "A long, narrow piece of material or area of land.",
+        "definitionZh": "一条长而窄的材料或土地。",
+        "meaningZh": "条；带；狭长地带",
+        "nuanceZh": "强调长而窄的形状；不同于动词 strip 的去除含义。",
+        "examples": [
+          {
+            "en": "Attach a strip of tape to the back of the sign.",
+            "zh": "在标牌背面贴上一条胶带。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a strip of tape",
+            "meaningZh": "一条胶带"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "材料与包装",
+            "noteZh": "用于胶带、布料或狭长地带。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "stripe",
+            "noteZh": "stripe 常指表面上的条纹；strip 常指长而窄的一条材料或区域。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "strip-verb",
+    "word": "strip",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "strɪp",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/strip",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "strip-verb-01",
+        "definitionEn": "To remove a covering, layer, or other material from a surface.",
+        "definitionZh": "从表面去掉覆盖物、一层物质或其他材料。",
+        "meaningZh": "剥去；去除",
+        "nuanceZh": "常用 strip A from B 或 strip B of A；此处并非名词的长条。",
+        "examples": [
+          {
+            "en": "Please strip the old paint from the door before repainting it.",
+            "zh": "重新上漆前，请去掉门上的旧油漆。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "strip paint from",
+            "meaningZh": "从……剥除油漆"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "维护与清洁",
+            "noteZh": "用于去除表面材料或覆盖层。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "remove",
+            "noteZh": "remove 的范围更广；strip 常突出剥掉表面覆盖的一层。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "diagnose-verb",
+    "word": "diagnose",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌdaɪ.əɡˈnoʊs",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/diagnose",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "diagnose-verb-01",
+        "definitionEn": "To identify a disease or problem by examining its signs or causes.",
+        "definitionZh": "通过检查迹象或原因来确定疾病或问题。",
+        "meaningZh": "诊断；查明问题",
+        "nuanceZh": "既可诊断疾病，也可用于技术问题；强调找出问题是什么。",
+        "examples": [
+          {
+            "en": "A technician will diagnose the problem before replacing any parts.",
+            "zh": "技术人员会先查明问题，再更换零件。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "diagnose a problem",
+            "meaningZh": "诊断问题"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "医疗与技术",
+            "noteZh": "用于检查症状、设备故障或问题原因。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "evaluate",
+            "noteZh": "evaluate 侧重评估价值或表现；diagnose 侧重查明疾病或故障。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "delivery-noun",
+    "word": "delivery",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "dɪˈlɪv.ɚ.i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/delivery",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "delivery-noun-01",
+        "definitionEn": "The act of taking goods or messages to the person or place they are intended for.",
+        "definitionZh": "把货物或信息送到指定的人或地点的行为。",
+        "meaningZh": "递送；交付",
+        "nuanceZh": "此义项侧重送达过程，不等于货物本身；也可用于讲话的表达方式等其他义项。",
+        "examples": [
+          {
+            "en": "Please confirm the delivery date before placing the order.",
+            "zh": "下单前请确认交货日期。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "delivery date",
+            "meaningZh": "交货日期"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "物流与订单",
+            "noteZh": "用于商品配送、交货日期和送达安排。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "shipment",
+            "noteZh": "shipment 可指装运过程或一批货物；delivery 更强调送到收件人处。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Goods reaching a destination"
+      },
+      {
+        "senseId": "delivery-noun-02",
+        "senseHintEn": "Speaking or presenting",
+        "definitionEn": "The way someone speaks or presents a message.",
+        "definitionZh": "某人讲话或表达信息的方式。",
+        "meaningZh": "表达方式；演讲风格",
+        "nuanceZh": "侧重说话的呈现方式，包括语气、节奏等，不是送货。",
+        "examples": [
+          {
+            "en": "Her clear delivery made the presentation easy to follow.",
+            "zh": "她清晰的表达使这场发表易于理解。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a clear delivery",
+            "meaningZh": "清晰的表达方式"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "associate-verb",
+    "word": "associate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈsoʊ.ʃi.eɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/associate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "associate-verb-01",
+        "definitionEn": "To connect one person, thing, or idea with another in your mind.",
+        "definitionZh": "在心中把一个人、事物或想法与另一个联系起来。",
+        "meaningZh": "联想；联系",
+        "nuanceZh": "常用 associate A with B；这里是建立观念上的联系。",
+        "examples": [
+          {
+            "en": "Customers associate our brand with reliable service.",
+            "zh": "顾客把我们的品牌与可靠的服务联系在一起。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "associate A with B",
+            "meaningZh": "把 A 与 B 联系起来"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "品牌与认知",
+            "noteZh": "用于品牌印象、经验和事物之间的联系。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "connect",
+            "noteZh": "connect 可表示实际连接；associate 在此强调观念或联想上的联系。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "associate-noun",
+    "word": "associate",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈsoʊ.ʃi.ət",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/associate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "associate-noun-01",
+        "definitionEn": "Someone connected with another person through work or business.",
+        "definitionZh": "在工作或商业上与另一个人有联系的人。",
+        "meaningZh": "同事；业务伙伴",
+        "nuanceZh": "名词末尾读弱读音，不读动词末尾的 /eɪt/；也常见于职位名称。",
+        "examples": [
+          {
+            "en": "A business associate introduced me to the new client.",
+            "zh": "一位业务伙伴把我介绍给了新客户。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "business associate",
+            "meaningZh": "业务伙伴"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "工作关系",
+            "noteZh": "用于业务联系、同事或工作伙伴。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "colleague",
+            "noteZh": "colleague 常指同一机构或同行的同事；associate 可指较广泛的业务伙伴。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "recommend-verb",
+    "word": "recommend",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌrek.əˈmend",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/recommend",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "recommend-verb-01",
+        "definitionEn": "To suggest that someone or something is suitable or worth choosing.",
+        "definitionZh": "建议某人或某事物适合或值得选择。",
+        "meaningZh": "推荐；建议",
+        "nuanceZh": "可接名词、动名词或 that 从句；recommend doing 常用于建议做某事。",
+        "examples": [
+          {
+            "en": "I recommend booking your ticket at least a week in advance.",
+            "zh": "我建议至少提前一周订票。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "recommend doing something",
+            "meaningZh": "建议做某事"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "建议与选择",
+            "noteZh": "用于推荐人选、服务或行动方案。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "propose",
+            "noteZh": "propose 强调提出供考虑的方案；recommend 强调认为某个选择合适。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "acquaint-verb",
+    "word": "acquaint",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈkweɪnt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/acquaint",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "acquaint-verb-01",
+        "definitionEn": "To make someone familiar with a person, subject, or situation.",
+        "definitionZh": "使某人熟悉一个人、主题或情况。",
+        "meaningZh": "使熟悉；使了解",
+        "nuanceZh": "常用 acquaint someone with something；也可用 acquaint yourself with 表示主动了解。",
+        "examples": [
+          {
+            "en": "Please acquaint yourself with the safety procedures before entering the lab.",
+            "zh": "进入实验室前，请先熟悉安全规程。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "acquaint yourself with",
+            "meaningZh": "使自己熟悉"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "入职与培训",
+            "noteZh": "用于熟悉规章、流程或新情况。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "inform",
+            "noteZh": "inform 侧重告知信息；acquaint 侧重使人逐渐或充分熟悉某事。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "transact-verb",
+    "word": "transact",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "trænˈzækt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/dictionary/english/transact",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "transact-verb-01",
+        "definitionEn": "To carry out and complete a business activity or deal.",
+        "definitionZh": "开展并完成一项商业活动或交易。",
+        "meaningZh": "办理；进行交易",
+        "nuanceZh": "偏正式，常用于 transact business；不直接等于买入或卖出某一种商品。",
+        "examples": [
+          {
+            "en": "The branch allows customers to transact business online.",
+            "zh": "该分行允许客户在线办理业务。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "transact business",
+            "meaningZh": "办理业务"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "银行与商务",
+            "noteZh": "用于商业或金融事务的办理。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "negotiate",
+            "noteZh": "negotiate 侧重协商条件；transact 侧重实际办理或完成交易。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "candidate-noun",
+    "word": "candidate",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈkæn.dɪ.dət",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/candidate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "candidate-noun-01",
+        "definitionEn": "Someone being considered for a job, award, or elected position.",
+        "definitionZh": "正在被考虑录用、授奖或当选的人。",
+        "meaningZh": "候选人；应聘者",
+        "nuanceZh": "强调处于被考虑或被选拔的范围内，不代表已经获得职位。",
+        "examples": [
+          {
+            "en": "Each candidate must submit a resume and a cover letter.",
+            "zh": "每位应聘者都必须提交简历和求职信。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "job candidate",
+            "meaningZh": "职位候选人"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "招聘与选拔",
+            "noteZh": "用于职位、奖项或选举的候选人。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "applicant",
+            "noteZh": "applicant 强调已提出申请；candidate 强调是被考虑的人选。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "spectator-noun",
+    "word": "spectator",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "spekˈteɪ.t̬ɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/spectator",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "spectator-noun-01",
+        "definitionEn": "A person who watches an event without taking part in it.",
+        "definitionZh": "观看活动而不参与其中的人。",
+        "meaningZh": "观众；观看者",
+        "nuanceZh": "常用于体育比赛或现场活动，重点是不直接参与活动。",
+        "examples": [
+          {
+            "en": "Every spectator must show a ticket at the entrance.",
+            "zh": "每位观众都必须在入口出示门票。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sports spectator",
+            "meaningZh": "体育赛事观众"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "比赛与活动",
+            "noteZh": "用于观看体育或现场活动的人。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "audience",
+            "noteZh": "audience 常指演出或讲话的受众整体；spectator 常指观看比赛或活动的个人。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "distant-adj",
+    "word": "distant",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈdɪs.tənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/distant",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "distant-adj-01",
+        "definitionEn": "Far away in space or time.",
+        "definitionZh": "在空间或时间上相距很远。",
+        "meaningZh": "遥远的；久远的",
+        "nuanceZh": "可表示位置远或时间久远；不等于 rural 的乡村属性。",
+        "examples": [
+          {
+            "en": "The company ships equipment to distant islands.",
+            "zh": "这家公司把设备运往遥远的岛屿。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a distant location",
+            "meaningZh": "遥远的地点"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "位置与时间",
+            "noteZh": "用于相距很远的地点或久远的时间。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "remote",
+            "noteZh": "remote 还常带偏僻、不易到达的含义；distant 更直接强调距离远。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "compensate-verb",
+    "word": "compensate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈkɑːm.pən.seɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/compensate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "compensate-verb-01",
+        "definitionEn": "To provide money or another benefit to make up for a loss or disadvantage.",
+        "definitionZh": "提供金钱或其他利益来弥补损失或不利。",
+        "meaningZh": "补偿；赔偿",
+        "nuanceZh": "常用 compensate someone for something；也可用某项优点弥补不足。",
+        "examples": [
+          {
+            "en": "The airline will compensate passengers for the delay.",
+            "zh": "航空公司将为这次延误补偿乘客。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "compensate someone for",
+            "meaningZh": "因某事补偿某人"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "赔偿与待遇",
+            "noteZh": "用于弥补损失、额外工作或不利条件。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "reimburse",
+            "noteZh": "reimburse 通常是报销已经支出的费用；compensate 更广泛地弥补损失或付出。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "postpone-verb",
+    "word": "postpone",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "poʊstˈpoʊn",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/postpone",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "postpone-verb-01",
+        "definitionEn": "To arrange for an event or action to happen at a later time than planned.",
+        "definitionZh": "安排某个活动或行动晚于原计划进行。",
+        "meaningZh": "推迟；延期",
+        "nuanceZh": "强调把已计划的事情改到更晚，不表示彻底取消。",
+        "examples": [
+          {
+            "en": "We need to postpone the meeting until Friday.",
+            "zh": "我们需要把会议推迟到星期五。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "postpone a meeting",
+            "meaningZh": "推迟会议"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "日程安排",
+            "noteZh": "用于会议、出行或活动延期。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "cancel",
+            "noteZh": "cancel 表示取消安排；postpone 表示改到以后进行。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "evaluate-verb",
+    "word": "evaluate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪˈvæl.ju.eɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/evaluate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "evaluate-verb-01",
+        "definitionEn": "To judge the quality, value, or effectiveness of something after examining it.",
+        "definitionZh": "检查后判断某事物的质量、价值或效果。",
+        "meaningZh": "评估；评价",
+        "nuanceZh": "通常依据一定标准判断表现或成效，不只是描述现状。",
+        "examples": [
+          {
+            "en": "The committee will evaluate each proposal carefully.",
+            "zh": "委员会将仔细评估每份提案。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "evaluate performance",
+            "meaningZh": "评估表现"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "考核与决策",
+            "noteZh": "用于方案、表现或项目效果的评估。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "diagnose",
+            "noteZh": "diagnose 侧重识别疾病或故障；evaluate 侧重判断质量、价值或效果。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "priority-noun",
+    "word": "priority",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "praɪˈɔːr.ə.t̬i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/priority",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "priority-noun-01",
+        "definitionEn": "Something that should receive attention or action before other things.",
+        "definitionZh": "应先于其他事情得到关注或处理的事情。",
+        "meaningZh": "优先事项；优先权",
+        "nuanceZh": "强调处理顺序或重要程度；a top priority 是首要事项。",
+        "examples": [
+          {
+            "en": "Improving customer service is our top priority.",
+            "zh": "改善客户服务是我们的首要任务。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "top priority",
+            "meaningZh": "首要事项"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "任务与决策",
+            "noteZh": "用于安排资源、时间和任务的先后。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "preference",
+            "noteZh": "preference 侧重个人偏好；priority 侧重应优先处理的重要性或顺序。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "abstain-verb",
+    "word": "abstain",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "æbˈsteɪn",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/abstain",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "abstain-verb-01",
+        "definitionEn": "To deliberately choose not to do something, especially to vote.",
+        "definitionZh": "有意识地选择不做某事，尤其是不投票。",
+        "meaningZh": "弃权；自制不做",
+        "nuanceZh": "常用 abstain from doing；投票时弃权，不等于投反对票。",
+        "examples": [
+          {
+            "en": "Two board members chose to abstain from voting.",
+            "zh": "两名董事选择在表决时弃权。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "abstain from voting",
+            "meaningZh": "投票时弃权"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "表决与选择",
+            "noteZh": "用于主动不参加表决或克制某种行为。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "refrain",
+            "noteZh": "refrain from 更泛指克制不做；abstain 常用于投票或主动戒除某物。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "label-noun",
+    "word": "label",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈleɪ.bəl",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/label",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "label-noun-01",
+        "definitionEn": "A piece of paper or other material attached to an item to give information about it.",
+        "definitionZh": "附在物品上、提供有关信息的一张纸或其他材料。",
+        "meaningZh": "标签；标牌",
+        "nuanceZh": "此义项指物品上载有名称、成分或价格等信息的标签。",
+        "examples": [
+          {
+            "en": "Read the label carefully before using the product.",
+            "zh": "使用产品前，请仔细阅读标签。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "product label",
+            "meaningZh": "产品标签"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "产品与包装",
+            "noteZh": "用于成分、说明、价格和商品信息。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "tag",
+            "noteZh": "tag 也可指标签，常是系在物品上的小牌；label 常贴在物品或包装上。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "label-verb",
+    "word": "label",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈleɪ.bəl",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/label",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "label-verb-01",
+        "definitionEn": "To attach a name or information to an item, or describe someone in a particular way.",
+        "definitionZh": "给物品附上名称或信息，或以特定方式描述某人。",
+        "meaningZh": "贴标签；标明；归类",
+        "nuanceZh": "既可指实际贴标签，也可指把人或事物归为某类。",
+        "examples": [
+          {
+            "en": "Please label each box with its destination.",
+            "zh": "请在每个箱子上标明目的地。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "label a box",
+            "meaningZh": "给箱子贴标签"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "包装与分类",
+            "noteZh": "用于标明名称、内容或目的地。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "mark",
+            "noteZh": "mark 泛指作标记；label 更强调附上识别或分类信息。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "improvement-noun",
+    "word": "improvement",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪmˈpruːv.mənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/improvement",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "improvement-noun-01",
+        "definitionEn": "A change that makes something better than before.",
+        "definitionZh": "使某事物比以前更好的变化。",
+        "meaningZh": "改进；改善",
+        "nuanceZh": "强调向更好的方向变化；可以是过程，也可以是具体改进。",
+        "examples": [
+          {
+            "en": "The new system is a major improvement over the old one.",
+            "zh": "新系统与旧系统相比有了重大改进。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a major improvement",
+            "meaningZh": "重大改进"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "工作与质量",
+            "noteZh": "用于服务、效率、技能或状况变好。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "change",
+            "noteZh": "change 只表示变化；improvement 明确表示变得更好。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "improve + -ment",
+        "explanationZh": "动词 improve 加名词后缀 -ment，表示改善或改进。"
+      }
+    ]
+  },
+  {
+    "id": "beneficiary-noun",
+    "word": "beneficiary",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌben.əˈfɪʃ.i.er.i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/beneficiary",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "beneficiary-noun-01",
+        "definitionEn": "A person or organization that receives money, benefits, or advantages from something.",
+        "definitionZh": "从某事中获得金钱、好处或利益的人或机构。",
+        "meaningZh": "受益人；受益机构",
+        "nuanceZh": "常见于保险、遗产和援助项目，强调实际接受利益的一方。",
+        "examples": [
+          {
+            "en": "You can name a family member as the beneficiary of the policy.",
+            "zh": "你可以指定一位家人为这份保单的受益人。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "name a beneficiary",
+            "meaningZh": "指定受益人"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "保险与援助",
+            "noteZh": "用于保险金、遗产或项目利益的接受方。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "recipient",
+            "noteZh": "recipient 泛指接收人；beneficiary 强调得到利益或好处的人。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "settlement-noun",
+    "word": "settlement",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈset̬.əl.mənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/settlement",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "settlement-noun-01",
+        "definitionEn": "An agreement that ends a dispute, often involving a payment.",
+        "definitionZh": "结束争议的协议，通常涉及付款。",
+        "meaningZh": "和解；和解协议",
+        "nuanceZh": "强调双方达成安排以解决纠纷；不同于法院单方面作出的判决。",
+        "examples": [
+          {
+            "en": "Both companies agreed to a settlement before the trial.",
+            "zh": "两家公司在庭审前达成了和解。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "reach a settlement",
+            "meaningZh": "达成和解"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "纠纷与协商",
+            "noteZh": "用于法律争议或赔偿安排。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "verdict",
+            "noteZh": "verdict 是裁决或判决结果；settlement 是当事方达成的解决协议。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "settle + -ment",
+        "explanationZh": "settle 加 -ment 构成名词；和解、定居等含义需依义项区分。"
+      }
+    ]
+  },
+  {
+    "id": "specialize-verb",
+    "word": "specialize",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈspeʃ.ə.laɪz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/specialize",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "specialize-verb-01",
+        "definitionEn": "To focus your work or study on one particular subject or activity.",
+        "definitionZh": "把工作或学习集中在某个特定主题或活动上。",
+        "meaningZh": "专门研究；专营",
+        "nuanceZh": "常用 specialize in，强调专注的领域，不表示其他事情都不会做。",
+        "examples": [
+          {
+            "en": "Our firm will specialize in software for small businesses.",
+            "zh": "我们公司将专门开发面向小型企业的软件。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "specialize in",
+            "meaningZh": "专门从事"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "专业与业务",
+            "noteZh": "用于个人专业领域或公司的专营业务。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "focus",
+            "noteZh": "focus on 可指临时集中注意力；specialize in 常指长期专注的专业领域。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "special + -ize",
+        "explanationZh": "special 加动词后缀 -ize，可帮助理解专门从事的含义。"
+      }
+    ]
+  },
+  {
+    "id": "amateur-noun",
+    "word": "amateur",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈæm.ə.tʃɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/amateur",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "amateur-noun-01",
+        "definitionEn": "Someone who does an activity for enjoyment rather than as a paid profession.",
+        "definitionZh": "出于兴趣而非以有偿职业身份从事某活动的人。",
+        "meaningZh": "业余爱好者",
+        "nuanceZh": "核心是非职业身份，不必然表示水平低；有时语境中也带不专业的意味。",
+        "examples": [
+          {
+            "en": "The competition is open to any amateur with a camera.",
+            "zh": "任何拥有相机的业余爱好者都可以参加比赛。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an amateur photographer",
+            "meaningZh": "业余摄影爱好者"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "兴趣与活动",
+            "noteZh": "用于非职业的运动、艺术或技能活动。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "beginner",
+            "noteZh": "beginner 表示初学者；amateur 表示业余身份，可能已有很高水平。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "consent-noun",
+    "word": "consent",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "kənˈsent",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/consent",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "consent-noun-01",
+        "definitionEn": "Permission or agreement given freely for something to happen.",
+        "definitionZh": "自愿给予某事发生的许可或同意。",
+        "meaningZh": "同意；许可",
+        "nuanceZh": "强调许可是自愿作出的；written consent 是书面同意。",
+        "examples": [
+          {
+            "en": "We need your written consent before sharing the information.",
+            "zh": "分享这项信息前，我们需要你的书面同意。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "written consent",
+            "meaningZh": "书面同意"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "许可与手续",
+            "noteZh": "用于信息使用、程序或活动的同意。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "permission",
+            "noteZh": "permission 可由有权限的人授予；consent 更突出有关当事人的同意。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "qualify-verb",
+    "word": "qualify",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈkwɑː.lə.faɪ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/qualify",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "qualify-verb-01",
+        "definitionEn": "To meet the conditions or have the ability needed for something.",
+        "definitionZh": "符合某事所需的条件或具备所需能力。",
+        "meaningZh": "符合资格；使有资格",
+        "nuanceZh": "qualify for 常指符合申请条件；qualify as 常用于取得某种身份或资质。",
+        "examples": [
+          {
+            "en": "Employees with one year of service qualify for paid leave.",
+            "zh": "工作满一年的员工有资格享受带薪休假。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "qualify for",
+            "meaningZh": "有资格获得"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "资格与申请",
+            "noteZh": "用于福利、职位、比赛或专业资质。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "be eligible",
+            "noteZh": "be eligible 强调符合资格；qualify 还可指通过学习、考试等取得资格。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "reduce-verb",
+    "word": "reduce",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "rɪˈduːs",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/reduce",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "reduce-verb-01",
+        "definitionEn": "To make something smaller or less in amount, size, or degree.",
+        "definitionZh": "使某事物的数量、大小或程度减少。",
+        "meaningZh": "减少；降低",
+        "nuanceZh": "通常接被减少的对象；reduce by 表示减少的差额，reduce to 表示减到的结果。",
+        "examples": [
+          {
+            "en": "The new lighting can reduce energy costs.",
+            "zh": "新照明设备可以降低能源费用。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "reduce costs",
+            "meaningZh": "降低成本"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "成本与数量",
+            "noteZh": "用于减少费用、数量、风险或程度。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "decrease",
+            "noteZh": "decrease 既可表示自身减少，也可表示使减少；reduce 通常表示使某物减少。"
+          },
+          {
+            "word": "erode",
+            "noteZh": "reduce 泛指使减少；erode 强调逐渐侵蚀或削弱。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "adjust-verb",
+    "word": "adjust",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈdʒʌst",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/adjust",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "adjust-verb-01",
+        "definitionEn": "To change something slightly so that it fits or works better.",
+        "definitionZh": "稍微改变某事物，使其更合适或运作得更好。",
+        "meaningZh": "调整；调节",
+        "nuanceZh": "强调为适应情况而作改变；adjust to 还可表示适应新环境。",
+        "examples": [
+          {
+            "en": "Please adjust the schedule to allow more time for training.",
+            "zh": "请调整日程，为培训留出更多时间。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "adjust the schedule",
+            "meaningZh": "调整日程"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "安排与设备",
+            "noteZh": "用于时间表、设置或设备的调节。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "adapt",
+            "noteZh": "adapt 常指更广泛地适应条件；adjust 常强调必要的小幅调整。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "authorize-verb",
+    "word": "authorize",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈɑː.θɚ.aɪz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/authorize",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "authorize-verb-01",
+        "definitionEn": "To officially give someone permission or power to do something.",
+        "definitionZh": "正式给予某人做某事的许可或权力。",
+        "meaningZh": "授权；批准",
+        "nuanceZh": "常用 authorize someone to do，突出正式赋予权限。",
+        "examples": [
+          {
+            "en": "Only a manager can authorize the refund.",
+            "zh": "只有经理才能批准退款。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "authorize a payment",
+            "meaningZh": "批准付款"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "权限与审批",
+            "noteZh": "用于付款、退款、签署或操作权限。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "approve",
+            "noteZh": "approve 可表示认可某事；authorize 更强调正式给予行动权限。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "claim-verb",
+    "word": "claim",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "kleɪm",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/claim",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "claim-verb-01",
+        "definitionEn": "To ask for something that you believe you have a right to receive.",
+        "definitionZh": "要求获得自己认为有权得到的东西。",
+        "meaningZh": "申领；索取；认领",
+        "nuanceZh": "此义项用于报销、保险或物品认领；claim 还可表示声称，需要区分。",
+        "examples": [
+          {
+            "en": "You can claim travel expenses after the trip.",
+            "zh": "出差后你可以申领差旅费。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "claim expenses",
+            "meaningZh": "申领费用"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "费用与保险",
+            "noteZh": "用于报销、索赔或认领物品。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "request",
+            "noteZh": "request 泛指请求；claim 常暗含认为自己有获得它的权利。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Asking for an entitlement"
+      },
+      {
+        "senseId": "claim-verb-02",
+        "senseHintEn": "Saying something is true",
+        "definitionEn": "To state that something is true, even if it has not been proved.",
+        "definitionZh": "声称某事属实，即使它尚未得到证实。",
+        "meaningZh": "声称；宣称",
+        "nuanceZh": "只说明有人提出这种说法，不表示说法已经被证实。",
+        "examples": [
+          {
+            "en": "They claim that the device uses less energy.",
+            "zh": "他们声称这款设备耗能更少。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "claim that",
+            "meaningZh": "声称……"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "advantage-noun",
+    "word": "advantage",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ədˈvæn.t̬ɪdʒ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/advantage",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "advantage-noun-01",
+        "definitionEn": "A feature or condition that puts someone in a better position.",
+        "definitionZh": "使某人处于更有利地位的特点或条件。",
+        "meaningZh": "优势；有利条件",
+        "nuanceZh": "强调相对于其他人或方案更有利；take advantage of 还可表示利用。",
+        "examples": [
+          {
+            "en": "Local knowledge gives our team an advantage.",
+            "zh": "对本地情况的了解使我们团队具有优势。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "competitive advantage",
+            "meaningZh": "竞争优势"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "竞争与选择",
+            "noteZh": "用于比较方案、产品或团队的有利条件。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "benefit",
+            "noteZh": "benefit 侧重得到的好处；advantage 常突出比较中的有利地位。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "campaign-noun",
+    "word": "campaign",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "kæmˈpeɪn",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/campaign",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "campaign-noun-01",
+        "definitionEn": "A planned series of activities intended to achieve a particular goal.",
+        "definitionZh": "为实现某个特定目标而计划的一系列活动。",
+        "meaningZh": "活动；宣传攻势",
+        "nuanceZh": "通常是一段时间内协调开展的多项活动，不只是一场活动。",
+        "examples": [
+          {
+            "en": "The company will launch a campaign to attract new customers.",
+            "zh": "公司将发起一轮吸引新客户的宣传活动。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "launch a campaign",
+            "meaningZh": "发起宣传活动"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "营销与公共活动",
+            "noteZh": "用于广告、宣传或目标明确的系列行动。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "event",
+            "noteZh": "event 通常指一场具体活动；campaign 强调围绕目标展开的一系列行动。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "comparative-adj",
+    "word": "comparative",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "kəmˈper.ə.t̬ɪv",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/comparative",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "comparative-adj-01",
+        "definitionEn": "Based on looking at two or more things to see how they differ or are similar.",
+        "definitionZh": "以观察两个或更多事物的异同为基础的。",
+        "meaningZh": "比较的；相对的",
+        "nuanceZh": "此义项用于 comparative analysis 等比较研究；另可用于形容词或副词的比较级。",
+        "examples": [
+          {
+            "en": "The report includes a comparative analysis of three suppliers.",
+            "zh": "报告包含对三家供应商的比较分析。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "comparative analysis",
+            "meaningZh": "比较分析"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "分析与研究",
+            "noteZh": "用于对产品、数据或方案进行比较。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "relative",
+            "noteZh": "relative 常强调取决于比较对象；comparative 可直接表示采用比较方法的。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "complicate-verb",
+    "word": "complicate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈkɑːm.plə.keɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/complicate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "complicate-verb-01",
+        "definitionEn": "To make a situation or process more difficult to understand or deal with.",
+        "definitionZh": "使情况或过程变得更难理解或处理。",
+        "meaningZh": "使复杂化；使更难办",
+        "nuanceZh": "是使动含义，强调增加处理难度，而非单纯描述复杂的状态。",
+        "examples": [
+          {
+            "en": "Unexpected changes may complicate the approval process.",
+            "zh": "意外的变动可能使审批流程复杂化。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "complicate matters",
+            "meaningZh": "使事情复杂化"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "流程与问题",
+            "noteZh": "用于让计划、安排或局面更难处理的因素。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "confuse",
+            "noteZh": "confuse 侧重使人困惑；complicate 侧重使事情本身更复杂。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "rural-adj",
+    "word": "rural",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈrʊr.əl",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/rural",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "rural-adj-01",
+        "definitionEn": "Related to the countryside rather than towns or cities.",
+        "definitionZh": "与乡村而非城镇或城市有关的。",
+        "meaningZh": "乡村的；农村的",
+        "nuanceZh": "强调乡村属性，不一定意味着偏远或距离很远。",
+        "examples": [
+          {
+            "en": "The program supports small businesses in rural areas.",
+            "zh": "这项计划支持农村地区的小型企业。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rural areas",
+            "meaningZh": "农村地区"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "地区与发展",
+            "noteZh": "用于描述乡村社区、地区或产业。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "distant",
+            "noteZh": "distant 强调距离远；rural 强调属于乡村，二者不等同。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "substantial-adj",
+    "word": "substantial",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "səbˈstæn.ʃəl",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/substantial",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "substantial-adj-01",
+        "definitionEn": "Large or important enough to have a noticeable effect.",
+        "definitionZh": "数量或重要性足以产生明显影响的。",
+        "meaningZh": "大量的；重大的；可观的",
+        "nuanceZh": "常强调规模、程度或数量可观；不必表示多数或全部。",
+        "examples": [
+          {
+            "en": "The project requires a substantial investment.",
+            "zh": "这个项目需要一笔可观的投资。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "substantial investment",
+            "meaningZh": "可观的投资"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "规模与投入",
+            "noteZh": "用于投资、增长、数量或贡献较大时。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "significant",
+            "noteZh": "significant 更突出意义或影响；substantial 更常强调规模或数量可观。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "manage-verb",
+    "word": "manage",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈmæn.ədʒ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/manage",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "manage-verb-01",
+        "definitionEn": "To be responsible for organizing and controlling work, people, or resources.",
+        "definitionZh": "负责组织和管理工作、人员或资源。",
+        "meaningZh": "管理；负责",
+        "nuanceZh": "此义项是管理职责；manage to do 另表示设法做到。",
+        "examples": [
+          {
+            "en": "She will manage the project from start to finish.",
+            "zh": "她将负责从头到尾管理这个项目。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "manage a project",
+            "meaningZh": "管理项目"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "工作与组织",
+            "noteZh": "用于负责团队、项目或资源。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "supervise",
+            "noteZh": "supervise 常侧重监督具体工作；manage 更广泛地组织和调配资源。"
+          },
+          {
+            "word": "arrange",
+            "noteZh": "manage 在此强调管理职责；arrange 强调安排具体细节。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Organizing work or people"
+      },
+      {
+        "senseId": "manage-verb-02",
+        "senseHintEn": "Succeeding in a difficult task",
+        "definitionEn": "To succeed in doing something, especially when it is difficult.",
+        "definitionZh": "成功做成某事，尤其是在有困难的情况下。",
+        "meaningZh": "设法做到",
+        "nuanceZh": "常用 manage to do，强调最终做到了，不是管理职责。",
+        "examples": [
+          {
+            "en": "How did you manage to finish the project so quickly?",
+            "zh": "你是如何这么快完成这个项目的？"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "manage to do something",
+            "meaningZh": "设法做成某事"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "particular-adj",
+    "word": "particular",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "pɚˈtɪk.jə.lɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/particular",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "particular-adj-01",
+        "definitionEn": "Used to refer to one specific person, thing, or situation rather than others.",
+        "definitionZh": "用于指某个特定的人、事物或情况，而非其他对象。",
+        "meaningZh": "特定的；某一的",
+        "nuanceZh": "强调从其他对象中明确指出某一个；还可表示挑剔，需依语境区分。",
+        "examples": [
+          {
+            "en": "Is there a particular date that works best for you?",
+            "zh": "有没有一个对你最合适的特定日期？"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a particular date",
+            "meaningZh": "某个特定日期"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "指认与选择",
+            "noteZh": "用于明确指出某个人、时间或对象。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "specific",
+            "noteZh": "specific 也可指特定的，还常强调说明具体、明确；particular 可仅用于指出某一个。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "One specific thing"
+      },
+      {
+        "senseId": "particular-adj-02",
+        "senseHintEn": "Being difficult to satisfy",
+        "definitionEn": "Not easily satisfied and careful about choosing things.",
+        "definitionZh": "不容易感到满意，并且在选择事物时很仔细。",
+        "meaningZh": "讲究的；挑剔的",
+        "nuanceZh": "常用 particular about，描述对某方面有明确而较高的要求。",
+        "examples": [
+          {
+            "en": "He is particular about the quality of the materials.",
+            "zh": "他对材料的质量很讲究。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "particular about",
+            "meaningZh": "对……很讲究"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "significant-adj",
+    "word": "significant",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "sɪɡˈnɪf.ə.kənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/significant",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "significant-adj-01",
+        "definitionEn": "Important enough to be noticed or to make a difference.",
+        "definitionZh": "重要到足以引起注意或带来影响的。",
+        "meaningZh": "重要的；显著的",
+        "nuanceZh": "常强调影响、意义或可注意的变化，不一定单指数量大。",
+        "examples": [
+          {
+            "en": "The new policy had a significant effect on sales.",
+            "zh": "新政策对销售产生了显著影响。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "significant effect",
+            "meaningZh": "显著影响"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "数据与影响",
+            "noteZh": "用于变化、差异或结果的重要性。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "substantial",
+            "noteZh": "substantial 常强调规模或数量可观；significant 更强调重要性或影响。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "strategy-noun",
+    "word": "strategy",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈstræt̬.ə.dʒi",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/strategy",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "strategy-noun-01",
+        "definitionEn": "A planned approach for achieving a long-term or overall goal.",
+        "definitionZh": "为实现长期或总体目标而制定的方法。",
+        "meaningZh": "策略；战略",
+        "nuanceZh": "通常着眼总体方向和目标，区别于某一步具体做法。",
+        "examples": [
+          {
+            "en": "We need a clear strategy for entering the new market.",
+            "zh": "我们需要一个清晰的进入新市场的策略。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "business strategy",
+            "meaningZh": "商业策略"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "规划与目标",
+            "noteZh": "用于市场、发展或竞争的总体安排。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "tactic",
+            "noteZh": "tactic 常指实现目标的一项具体手段；strategy 指总体方法与方向。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "allot-verb",
+    "word": "allot",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈlɑːt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/allot",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "allot-verb-01",
+        "definitionEn": "To give a share of time, money, or another resource for a particular purpose.",
+        "definitionZh": "为某个特定目的分配一部分时间、金钱或其他资源。",
+        "meaningZh": "分配；拨给",
+        "nuanceZh": "强调把有限资源中的份额划给特定用途或对象。",
+        "examples": [
+          {
+            "en": "We will allot ten minutes to each presentation.",
+            "zh": "我们会给每场发表分配十分钟。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "allot time to",
+            "meaningZh": "为……分配时间"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "时间与资源",
+            "noteZh": "用于安排时间、资金或空间的份额。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "allocate",
+            "noteZh": "allocate 也表示分配，常见于资源规划；allot 常突出分给各方的具体份额。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "elicit-verb",
+    "word": "elicit",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "iˈlɪs.ɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/elicit",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "elicit-verb-01",
+        "definitionEn": "To bring out a response, feeling, or information from someone.",
+        "definitionZh": "引出某人的回应、情感或信息。",
+        "meaningZh": "引出；诱发",
+        "nuanceZh": "强调某种提问或举动使回应出现；不是 illicit 的非法含义。",
+        "examples": [
+          {
+            "en": "The survey aims to elicit honest feedback from customers.",
+            "zh": "这份调查旨在收集顾客的真实反馈。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "elicit a response",
+            "meaningZh": "引出回应"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "提问与反馈",
+            "noteZh": "用于通过问题或行为引出信息和反应。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "illicit",
+            "noteZh": "illicit 是形容词，表示非法的；elicit 是动词，表示引出回应或信息。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "hesitate-verb",
+    "word": "hesitate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈhez.ə.teɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/hesitate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "hesitate-verb-01",
+        "definitionEn": "To pause before acting or speaking because you are uncertain.",
+        "definitionZh": "因不确定而在行动或说话前停顿。",
+        "meaningZh": "犹豫；迟疑",
+        "nuanceZh": "常用 hesitate to do；do not hesitate to contact 是常见的礼貌邀请。",
+        "examples": [
+          {
+            "en": "Please do not hesitate to contact us with any questions.",
+            "zh": "如有任何问题，请随时联系我们。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "hesitate to do something",
+            "meaningZh": "犹豫着不做某事"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "沟通与决定",
+            "noteZh": "用于不确定时暂缓行动或礼貌邀请联系。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "delay",
+            "noteZh": "delay 侧重时间上的推迟；hesitate 突出因不确定而迟疑。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "propose-verb",
+    "word": "propose",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prəˈpoʊz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/propose",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "propose-verb-01",
+        "definitionEn": "To put forward an idea or plan for other people to consider.",
+        "definitionZh": "提出一个想法或计划供他人考虑。",
+        "meaningZh": "提出；提议",
+        "nuanceZh": "强调提出可讨论的方案；不等于方案已经获批或被执行。",
+        "examples": [
+          {
+            "en": "I propose holding the training session on Friday.",
+            "zh": "我提议在星期五举行培训。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "propose doing something",
+            "meaningZh": "提议做某事"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "会议与方案",
+            "noteZh": "用于提出计划、建议或解决办法。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "recommend",
+            "noteZh": "recommend 强调推荐合适的选择；propose 强调提出供考虑的方案。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "productivity-noun",
+    "word": "productivity",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌproʊ.dəkˈtɪv.ə.t̬i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/productivity",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "productivity-noun-01",
+        "definitionEn": "The amount of useful output produced in relation to the resources used.",
+        "definitionZh": "相对于所用资源而产生的有效产出量。",
+        "meaningZh": "生产率；工作效率",
+        "nuanceZh": "关注单位时间、劳动或资源带来的产出，不只是总产量。",
+        "examples": [
+          {
+            "en": "Better equipment can increase productivity without adding staff.",
+            "zh": "更好的设备可以在不增聘员工的情况下提高生产率。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "increase productivity",
+            "meaningZh": "提高生产率"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "工作与生产",
+            "noteZh": "用于衡量投入与产出的关系。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "production",
+            "noteZh": "production 指生产活动或产量；productivity 侧重投入与产出的效率。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "proximity-noun",
+    "word": "proximity",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prɑːkˈsɪm.ə.t̬i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/proximity",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "proximity-noun-01",
+        "definitionEn": "The state of being near something in distance or time.",
+        "definitionZh": "在距离或时间上接近某事物的状态。",
+        "meaningZh": "接近；邻近",
+        "nuanceZh": "常用 proximity to；强调接近程度，不表示两个事物完全相邻或接触。",
+        "examples": [
+          {
+            "en": "The hotel's proximity to the airport attracts business travelers.",
+            "zh": "这家酒店靠近机场，吸引了商务旅客。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "proximity to",
+            "meaningZh": "与……邻近"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "地点与安排",
+            "noteZh": "用于地理位置或时间的接近程度。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "distance",
+            "noteZh": "distance 表示距离本身；proximity 强调距离近这一状态。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "profound-adj",
+    "word": "profound",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prəˈfaʊnd",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/profound",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "profound-adj-01",
+        "definitionEn": "Very deep, strong, or far-reaching in effect or understanding.",
+        "definitionZh": "在影响或理解方面非常深刻、强烈或深远的。",
+        "meaningZh": "深刻的；深远的",
+        "nuanceZh": "常用于思想、理解或影响，通常不是物理深度的普通表达。",
+        "examples": [
+          {
+            "en": "The new technology has a profound impact on the industry.",
+            "zh": "这项新技术对该行业有深远影响。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "profound impact",
+            "meaningZh": "深远影响"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "影响与理解",
+            "noteZh": "用于深入的理解或重大的长期影响。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "deep",
+            "noteZh": "deep 可用于物理深度；profound 常用于抽象层面的深刻或深远。"
+          },
+          {
+            "word": "significant",
+            "noteZh": "profound 强调深刻或深远；significant 强调重要或明显，相关语境可能重叠。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "cooperation-noun",
+    "word": "cooperation",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "koʊˌɑː.pəˈreɪ.ʃən",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/cooperation",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "cooperation-noun-01",
+        "definitionEn": "The act of working together with others to achieve a shared goal.",
+        "definitionZh": "与他人一起工作以实现共同目标的行为。",
+        "meaningZh": "合作；协作",
+        "nuanceZh": "强调配合或共同行动；也可用于礼貌请求对方配合。",
+        "examples": [
+          {
+            "en": "The project depends on close cooperation between the two teams.",
+            "zh": "这个项目依赖两个团队之间的密切合作。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "close cooperation",
+            "meaningZh": "密切合作"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "团队与组织",
+            "noteZh": "用于共同完成工作或配合流程。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "competition",
+            "noteZh": "competition 是竞争；cooperation 是为共同目标而合作。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "cooperate → cooperation",
+        "explanationZh": "由动词 cooperate 派生的名词；词尾去 e 后加 -ion。"
+      }
+    ]
+  },
+  {
+    "id": "apprehend-verb",
+    "word": "apprehend",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌæp.rəˈhend",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/apprehend",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "apprehend-verb-01",
+        "definitionEn": "To catch and arrest someone suspected of a crime.",
+        "definitionZh": "抓获并逮捕涉嫌犯罪的人。",
+        "meaningZh": "逮捕；拘捕",
+        "nuanceZh": "此义项偏正式，常用于警方抓捕；另有理解的义项。",
+        "examples": [
+          {
+            "en": "Police were able to apprehend the suspect near the station.",
+            "zh": "警方得以在车站附近抓获嫌疑人。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "apprehend a suspect",
+            "meaningZh": "抓获嫌疑人"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "治安与新闻",
+            "noteZh": "用于警方拘捕涉嫌犯罪的人。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "comprehend",
+            "noteZh": "comprehend 通常表示理解；apprehend 在此表示逮捕，虽然它也有理解的义项。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "feature-noun",
+    "word": "feature",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈfiː.tʃɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/feature",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "feature-noun-01",
+        "definitionEn": "A noticeable part or quality that helps describe something.",
+        "definitionZh": "有助于描述某事物的显著部分或性质。",
+        "meaningZh": "特点；特性；功能",
+        "nuanceZh": "可指产品功能或突出的特点，不一定表示优点。",
+        "examples": [
+          {
+            "en": "The most useful feature of the software is automatic backup.",
+            "zh": "这款软件最实用的功能是自动备份。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a key feature",
+            "meaningZh": "主要特点"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "产品与服务",
+            "noteZh": "用于描述功能、构成或显著特点。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "benefit",
+            "noteZh": "feature 是产品具备的特点；benefit 是这些特点给使用者带来的好处。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "feature-verb",
+    "word": "feature",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈfiː.tʃɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/feature",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "feature-verb-01",
+        "definitionEn": "To include someone or something as an important or noticeable part.",
+        "definitionZh": "把某人或某事物作为重要或显著部分纳入。",
+        "meaningZh": "以……为特色；包括",
+        "nuanceZh": "常用于说明产品、活动或节目中突出的内容。",
+        "examples": [
+          {
+            "en": "The new model will feature a larger display.",
+            "zh": "新型号将配备更大的显示屏。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "feature a new design",
+            "meaningZh": "以新设计为特色"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "产品与活动",
+            "noteZh": "用于介绍显著功能、参加者或内容。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "include",
+            "noteZh": "include 只说明包含；feature 常突出被包含内容的重要性或显著性。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "superior-adj",
+    "word": "superior",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "səˈpɪr.i.ɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/superior",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "superior-adj-01",
+        "definitionEn": "Better in quality, ability, or performance than another person or thing.",
+        "definitionZh": "在质量、能力或表现上比另一个人或事物更好。",
+        "meaningZh": "更好的；优越的",
+        "nuanceZh": "比较时常用 superior to，不用 than；另可指等级更高的。",
+        "examples": [
+          {
+            "en": "This model is superior to the older version in battery life.",
+            "zh": "这款型号在电池续航方面优于旧版本。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "superior to",
+            "meaningZh": "优于"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "比较与质量",
+            "noteZh": "用于比较品质、性能或能力。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "senior",
+            "noteZh": "senior 常表示资历、年龄或职级更高；superior 在此强调质量或表现更好。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "attribute-verb",
+    "word": "attribute",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈtrɪb.juːt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/attribute",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "attribute-verb-01",
+        "definitionEn": "To regard something as the result of a particular cause.",
+        "definitionZh": "把某事看作某个特定原因造成的结果。",
+        "meaningZh": "把……归因于",
+        "nuanceZh": "重音在第二音节，常用 attribute A to B；名词 attribute 的重音不同。",
+        "examples": [
+          {
+            "en": "We attribute the delay to a power outage.",
+            "zh": "我们把延误归因于停电。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "attribute A to B",
+            "meaningZh": "把 A 归因于 B"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "原因与解释",
+            "noteZh": "用于说明结果、成功或问题的原因。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "contribute",
+            "noteZh": "contribute to 表示促成或有助于；attribute A to B 表示把 A 归因于 B。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "attribute-noun",
+    "word": "attribute",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈæt.rɪ.bjuːt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/attribute",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "attribute-noun-01",
+        "definitionEn": "A quality or characteristic that someone or something has.",
+        "definitionZh": "某人或某事物具有的一种品质或特征。",
+        "meaningZh": "品质；特征",
+        "nuanceZh": "名词重音在第一音节，区别于把……归因于的动词读法。",
+        "examples": [
+          {
+            "en": "Patience is an important attribute for this role.",
+            "zh": "耐心是这个职位所需的一项重要品质。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an important attribute",
+            "meaningZh": "一项重要品质"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "品质与特点",
+            "noteZh": "用于描述人或事物具有的特征。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "feature",
+            "noteZh": "feature 可指具体部分或功能；attribute 常指归属于某人或某物的品质。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "ingredient-noun",
+    "word": "ingredient",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪnˈɡriː.di.ənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/ingredient",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "ingredient-noun-01",
+        "definitionEn": "One of the foods or substances used to make a dish or mixture.",
+        "definitionZh": "用于制作菜肴或混合物的食物或物质之一。",
+        "meaningZh": "原料；配料",
+        "nuanceZh": "强调构成食品或混合物的具体成分，不是用来操作的工具。",
+        "examples": [
+          {
+            "en": "Check each ingredient before preparing the meal.",
+            "zh": "备餐前请检查每一种配料。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a main ingredient",
+            "meaningZh": "主要原料"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "食品与制造",
+            "noteZh": "用于食谱、食品标签或混合物的成分。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "component",
+            "noteZh": "component 常用于设备或系统的组成部分；ingredient 常用于食品或混合物的成分。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "endurance-noun",
+    "word": "endurance",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪnˈdʊr.əns",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/endurance",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "endurance-noun-01",
+        "definitionEn": "The ability to continue through difficult or tiring conditions for a long time.",
+        "definitionZh": "在困难或疲劳条件下长时间坚持的能力。",
+        "meaningZh": "耐力；持久力",
+        "nuanceZh": "侧重坚持的时长和承受能力，不等于短时间内的力量。",
+        "examples": [
+          {
+            "en": "Regular exercise can build endurance for long working days.",
+            "zh": "经常锻炼可以增强应对长时间工作的耐力。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "build endurance",
+            "meaningZh": "增强耐力"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "运动与工作",
+            "noteZh": "用于承受长期活动、压力或疲劳的能力。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "strength",
+            "noteZh": "strength 常指力量或实力；endurance 强调长时间坚持的能力。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "endure → endurance",
+        "explanationZh": "endure 去词尾 e，加 -ance 构成表示耐力的名词。"
+      }
+    ]
+  },
+  {
+    "id": "frequent-adj",
+    "word": "frequent",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈfriː.kwənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/frequent",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "frequent-adj-01",
+        "definitionEn": "Happening often or occurring many times.",
+        "definitionZh": "经常发生或反复出现的。",
+        "meaningZh": "频繁的；经常的",
+        "nuanceZh": "形容词重音在第一音节；不同于副词 frequently。",
+        "examples": [
+          {
+            "en": "Frequent delays have affected the delivery schedule.",
+            "zh": "频繁的延误影响了交货日程。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "frequent delays",
+            "meaningZh": "频繁延误"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "频率与服务",
+            "noteZh": "用于描述事件经常出现。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "regular",
+            "noteZh": "regular 常强调有规律或固定间隔；frequent 只强调发生次数多。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "erode-verb",
+    "word": "erode",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪˈroʊd",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/erode",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "erode-verb-01",
+        "definitionEn": "To gradually wear away or weaken something over time.",
+        "definitionZh": "随着时间推移逐渐磨损或削弱某事物。",
+        "meaningZh": "侵蚀；逐渐削弱",
+        "nuanceZh": "可用于土地被侵蚀，也可指信任或利润逐渐受损。",
+        "examples": [
+          {
+            "en": "Repeated mistakes can erode customer trust.",
+            "zh": "反复犯错会逐渐削弱顾客的信任。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "erode trust",
+            "meaningZh": "削弱信任"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "环境与商业",
+            "noteZh": "用于长期积累造成的逐步损耗。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "destroy",
+            "noteZh": "destroy 侧重破坏的结果；erode 常强调缓慢、逐渐的削弱。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "include-verb",
+    "word": "include",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪnˈkluːd",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/include",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "include-verb-01",
+        "definitionEn": "To have someone or something as part of a whole.",
+        "definitionZh": "把某人或某事物作为整体的一部分。",
+        "meaningZh": "包括；包含",
+        "nuanceZh": "用于列出整体中的部分，不一定列举了全部项目。",
+        "examples": [
+          {
+            "en": "The price will include breakfast and airport transportation.",
+            "zh": "这个价格将包含早餐和机场接送。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "include a service",
+            "meaningZh": "包含一项服务"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "价格与范围",
+            "noteZh": "用于说明套餐、清单或整体的组成。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "contain",
+            "noteZh": "contain 常指容器或事物内部含有；include 常强调作为整体中的部分。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "amount-noun",
+    "word": "amount",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈmaʊnt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/amount",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "amount-noun-01",
+        "definitionEn": "A quantity of something, especially something that is not counted as individual items.",
+        "definitionZh": "某物的数量，尤其指不按单个个体计数的事物。",
+        "meaningZh": "数量；总额",
+        "nuanceZh": "常接不可数名词，如 an amount of money；可数复数通常用 number。",
+        "examples": [
+          {
+            "en": "The contract states the total amount to be paid.",
+            "zh": "合同列明了应支付的总额。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a large amount of",
+            "meaningZh": "大量的"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "金额与数量",
+            "noteZh": "用于金钱、时间或其他不可数事物的量。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "number",
+            "noteZh": "number 常用于可数个体的数目；amount 常用于不可数事物的量。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "arrange-verb",
+    "word": "arrange",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈreɪndʒ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/arrange",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "arrange-verb-01",
+        "definitionEn": "To organize the details of an activity or put things in a planned order.",
+        "definitionZh": "组织活动的细节，或按计划的顺序摆放事物。",
+        "meaningZh": "安排；整理",
+        "nuanceZh": "arrange a meeting 是安排会议；arrange for 可表示安排他人或服务来做某事。",
+        "examples": [
+          {
+            "en": "Please arrange a meeting with the client next week.",
+            "zh": "请安排下周与客户会面。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "arrange a meeting",
+            "meaningZh": "安排会议"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "日程与组织",
+            "noteZh": "用于会议、出行或物品摆放的安排。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "schedule",
+            "noteZh": "schedule 更突出确定日期和时间；arrange 可包含地点、人员等整体安排。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "margin-noun",
+    "word": "margin",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈmɑːr.dʒɪn",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/margin",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "margin-noun-01",
+        "definitionEn": "The difference between the selling price and the cost of a product or service.",
+        "definitionZh": "产品或服务的售价与成本之间的差额。",
+        "meaningZh": "利润差额；利润空间",
+        "nuanceZh": "此义项用于业务的利润空间；profit margin 也常指利润占收入的比例，需看具体指标。",
+        "examples": [
+          {
+            "en": "Rising material costs have reduced our margin on this product.",
+            "zh": "原料成本上涨减少了我们在这款产品上的利润空间。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "profit margin",
+            "meaningZh": "利润率；利润空间"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "成本与利润",
+            "noteZh": "用于定价和分析售价与成本的差额。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "markup",
+            "noteZh": "markup 常按成本计算加价；profit margin 常按售价或收入计算利润比例。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Difference between price and cost"
+      },
+      {
+        "senseId": "margin-noun-02",
+        "senseHintEn": "Blank space on a page",
+        "definitionEn": "The blank space along the edge of a page.",
+        "definitionZh": "页面边缘的空白区域。",
+        "meaningZh": "页边空白",
+        "nuanceZh": "此义项表示版面空间，与商业语境中的利润空间不同。",
+        "examples": [
+          {
+            "en": "Leave a wide margin on the left side of the page.",
+            "zh": "在页面左侧留出较宽的空白。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a wide margin",
+            "meaningZh": "宽页边空白"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "applause-noun",
+    "word": "applause",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈplɑːz",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/applause",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "applause-noun-01",
+        "definitionEn": "The sound of people clapping to show approval or enjoyment.",
+        "definitionZh": "人们通过拍手表示赞同或喜爱时发出的声音。",
+        "meaningZh": "掌声",
+        "nuanceZh": "通常为不可数名词；a round of applause 表示一阵掌声。",
+        "examples": [
+          {
+            "en": "The speaker received warm applause after the presentation.",
+            "zh": "演讲者在发表结束后获得了热烈掌声。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a round of applause",
+            "meaningZh": "一阵掌声"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "演出与发表",
+            "noteZh": "用于观众以拍手表示赞许。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "praise",
+            "noteZh": "praise 常指用语言表达的赞扬；applause 侧重拍手发出的掌声。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "departure-noun",
+    "word": "departure",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "dɪˈpɑːr.tʃɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/departure",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "departure-noun-01",
+        "definitionEn": "The act of leaving a place, especially at the start of a journey.",
+        "definitionZh": "离开某个地点的行为，尤其指旅程开始时的出发。",
+        "meaningZh": "出发；离开",
+        "nuanceZh": "在交通场景中与 arrival 相对；departure time 是出发时间。",
+        "examples": [
+          {
+            "en": "Please arrive at the gate thirty minutes before departure.",
+            "zh": "请在出发前半小时到达登机口。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "departure time",
+            "meaningZh": "出发时间"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "交通与旅行",
+            "noteZh": "用于航班、列车或旅程开始。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "arrival",
+            "noteZh": "arrival 表示到达；departure 表示离开或出发。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "terminate-verb",
+    "word": "terminate",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈtɝː.mə.neɪt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/terminate",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "terminate-verb-01",
+        "definitionEn": "To bring something to an end, especially an agreement or arrangement.",
+        "definitionZh": "结束某事，尤其是协议或安排。",
+        "meaningZh": "终止；结束",
+        "nuanceZh": "偏正式，常用于合同、雇佣或服务关系的结束。",
+        "examples": [
+          {
+            "en": "Either party may terminate the contract with thirty days' notice.",
+            "zh": "任一方均可提前三十天通知终止合同。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "terminate a contract",
+            "meaningZh": "终止合同"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "合同与关系",
+            "noteZh": "用于正式结束合同、服务或安排。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "halt",
+            "noteZh": "halt 强调停止某项活动或进展，可能暂时；terminate 通常强调正式结束。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "define-verb",
+    "word": "define",
+    "partOfSpeech": "verb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "dɪˈfaɪn",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/define",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "define-verb-01",
+        "definitionEn": "To explain the meaning of something or state its limits clearly.",
+        "definitionZh": "解释某事物的含义，或明确说明其界限。",
+        "meaningZh": "定义；明确规定",
+        "nuanceZh": "不仅可解释词义，也可明确职责、范围或要求。",
+        "examples": [
+          {
+            "en": "The agreement must define each team's responsibilities.",
+            "zh": "协议必须明确规定每个团队的职责。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "define responsibilities",
+            "meaningZh": "明确职责"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "解释与规定",
+            "noteZh": "用于说明含义、职责或范围边界。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "describe",
+            "noteZh": "describe 常指描述特点；define 更强调准确说明含义或界限。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "initiative-noun",
+    "word": "initiative",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ɪˈnɪʃ.ə.t̬ɪv",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/initiative",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "initiative-noun-01",
+        "definitionEn": "A new plan or action intended to achieve an improvement or solve a problem.",
+        "definitionZh": "为实现改善或解决问题而采取的新计划或行动。",
+        "meaningZh": "倡议；新举措",
+        "nuanceZh": "此义项指有目标的新行动；take the initiative 另强调主动采取行动。",
+        "examples": [
+          {
+            "en": "The company launched an initiative to reduce packaging waste.",
+            "zh": "公司推出了一项减少包装废弃物的新举措。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "launch an initiative",
+            "meaningZh": "推出新举措"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "项目与改善",
+            "noteZh": "用于机构发起的新行动或计划。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "campaign",
+            "noteZh": "campaign 常是一系列宣传或行动；initiative 可指更广泛的新措施或项目。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "ballet-noun",
+    "word": "ballet",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "bælˈeɪ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/ballet",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "ballet-noun-01",
+        "definitionEn": "A form of dance that uses formal movements and trained technique, often to tell a story.",
+        "definitionZh": "采用规范动作和专业技巧、常用于讲述故事的一种舞蹈。",
+        "meaningZh": "芭蕾；芭蕾舞剧",
+        "nuanceZh": "既可指舞蹈艺术形式，也可指一部芭蕾作品。",
+        "examples": [
+          {
+            "en": "The theater will present a new ballet next month.",
+            "zh": "剧院下个月将上演一部新的芭蕾舞剧。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a ballet performance",
+            "meaningZh": "芭蕾舞演出"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "艺术与演出",
+            "noteZh": "用于舞蹈艺术或相关舞台作品。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "dance",
+            "noteZh": "dance 是舞蹈的统称；ballet 指有特定技巧体系的芭蕾。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "attire-noun",
+    "word": "attire",
+    "partOfSpeech": "noun",
+    "level": "C1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "əˈtaɪr",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/attire",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "attire-noun-01",
+        "definitionEn": "Clothes worn for a particular occasion or purpose.",
+        "definitionZh": "为某个特定场合或目的而穿的衣服。",
+        "meaningZh": "服装；衣着",
+        "nuanceZh": "偏正式，常见于着装要求；通常是不可数名词。",
+        "examples": [
+          {
+            "en": "Business attire is required for the awards ceremony.",
+            "zh": "颁奖典礼要求穿商务服装。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "business attire",
+            "meaningZh": "商务服装"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "着装与活动",
+            "noteZh": "用于正式场合的着装要求。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "outfit",
+            "noteZh": "outfit 常指搭配成套的一身衣服；attire 较正式地泛指衣着。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "automatically-adv",
+    "word": "automatically",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˌɑː.t̬əˈmæt̬.ɪ.kəl.i",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/automatically",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "automatically-adv-01",
+        "definitionEn": "Without direct human control or without a deliberate decision.",
+        "definitionZh": "无需人直接控制，或未经有意识决定地。",
+        "meaningZh": "自动地；不假思索地",
+        "nuanceZh": "可描述系统自动运行，也可描述习惯性、未经思考的反应。",
+        "examples": [
+          {
+            "en": "The software will automatically save your work every five minutes.",
+            "zh": "软件会每五分钟自动保存你的工作。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "automatically save",
+            "meaningZh": "自动保存"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "技术与习惯",
+            "noteZh": "用于自动功能或未经刻意思考的反应。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "manually",
+            "noteZh": "manually 表示由人手动操作；automatically 表示无需直接的人为操作。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "automatic + -ally",
+        "explanationZh": "以 -ic 结尾的 automatic 加 -ally 构成副词。"
+      }
+    ]
+  },
+  {
+    "id": "specific-adj",
+    "word": "specific",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "spəˈsɪf.ɪk",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/specific",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "specific-adj-01",
+        "definitionEn": "Clearly identified or limited to one particular thing.",
+        "definitionZh": "被明确指出，或仅限于某个特定事物的。",
+        "meaningZh": "具体的；特定的",
+        "nuanceZh": "可强调说明明确而不笼统，也可强调只针对某一对象。",
+        "examples": [
+          {
+            "en": "Please provide a specific example of the problem.",
+            "zh": "请提供这个问题的一个具体例子。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a specific example",
+            "meaningZh": "一个具体例子"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "说明与要求",
+            "noteZh": "用于明确指出对象、细节或条件。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "particular",
+            "noteZh": "particular 可仅指某个特定对象；specific 还常强调具体明确，避免笼统。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "client-noun",
+    "word": "client",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈklaɪ.ənt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/client",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "client-noun-01",
+        "definitionEn": "A person or organization that pays for professional services.",
+        "definitionZh": "为专业服务付费的个人或机构。",
+        "meaningZh": "客户；委托人",
+        "nuanceZh": "常用于咨询、法律、设计等持续性或专业服务关系。",
+        "examples": [
+          {
+            "en": "The consultant met with a new client this morning.",
+            "zh": "顾问今天上午会见了一位新客户。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a new client",
+            "meaningZh": "新客户"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "专业服务",
+            "noteZh": "用于顾问、律师或其他服务提供者的客户。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "customer",
+            "noteZh": "customer 可泛指购买商品或服务的人；client 常用于专业或持续服务的客户。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "halt-verb",
+    "word": "halt",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "hɑːlt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/halt",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "halt-verb-01",
+        "definitionEn": "To stop an activity, movement, or process from continuing.",
+        "definitionZh": "使活动、移动或过程停止继续。",
+        "meaningZh": "停止；使停下",
+        "nuanceZh": "可指临时停止，也可指完全停止；不一定表示正式结束一份协议。",
+        "examples": [
+          {
+            "en": "The company will halt production while the machine is repaired.",
+            "zh": "机器维修期间，公司将暂停生产。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "halt production",
+            "meaningZh": "停止生产"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "生产与进程",
+            "noteZh": "用于停止某项活动或进展。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "terminate",
+            "noteZh": "terminate 常指正式结束合同或关系；halt 更突出让活动或进程停下来。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "promotion-noun",
+    "word": "promotion",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "prəˈmoʊ.ʃən",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/promotion",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "promotion-noun-01",
+        "definitionEn": "A move to a job or position with greater responsibility or higher rank.",
+        "definitionZh": "调到责任更大或职级更高的工作或职位。",
+        "meaningZh": "晋升；升职",
+        "nuanceZh": "此义项强调职位提升；营销语境中也可表示促销或推广。",
+        "examples": [
+          {
+            "en": "Her promotion to team leader was announced on Monday.",
+            "zh": "她升任组长的消息于星期一公布。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "promotion to",
+            "meaningZh": "晋升为"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "工作与职业",
+            "noteZh": "用于职位、职级或责任的提升。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "transfer",
+            "noteZh": "transfer 侧重调动岗位或地点；promotion 明确包含职位或级别提升。"
+          }
+        ],
+        "distractorSenseIds": [],
+        "senseHintEn": "Moving to a higher position"
+      },
+      {
+        "senseId": "promotion-noun-02",
+        "senseHintEn": "Advertising or a sales offer",
+        "definitionEn": "Activities intended to make people notice and buy a product or service.",
+        "definitionZh": "旨在让人注意并购买产品或服务的活动。",
+        "meaningZh": "促销；推广",
+        "nuanceZh": "此义项属于营销领域，不是员工升职。",
+        "examples": [
+          {
+            "en": "The store launched a promotion for its new product line.",
+            "zh": "商店为新产品系列推出了促销活动。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sales promotion",
+            "meaningZh": "促销活动"
+          }
+        ],
+        "contexts": [],
+        "confusables": [],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "lawsuit-noun",
+    "word": "lawsuit",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "ˈlɑː.suːt",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/lawsuit",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "lawsuit-noun-01",
+        "definitionEn": "A legal case brought to a court by one person or organization against another.",
+        "definitionZh": "个人或机构针对另一方提起并交由法院处理的法律案件。",
+        "meaningZh": "诉讼；官司",
+        "nuanceZh": "指具体的司法诉讼，不是一般的投诉或不满。",
+        "examples": [
+          {
+            "en": "The company filed a lawsuit over the unpaid fees.",
+            "zh": "公司因费用未付而提起诉讼。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "file a lawsuit",
+            "meaningZh": "提起诉讼"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "纠纷与法律",
+            "noteZh": "用于当事方向法院提起的案件。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "complaint",
+            "noteZh": "complaint 可指一般投诉，也可用于法律文书；lawsuit 明确指诉讼案件。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  },
+  {
+    "id": "reminder-noun",
+    "word": "reminder",
+    "partOfSpeech": "noun",
+    "level": "B1",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "rɪˈmaɪn.dɚ",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/us/pronunciation/english/reminder",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "reminder-noun-01",
+        "definitionEn": "A message or object that helps someone remember something.",
+        "definitionZh": "帮助某人记住某事的信息或物品。",
+        "meaningZh": "提醒；提示物",
+        "nuanceZh": "常见于会议、付款或截止日期的通知。",
+        "examples": [
+          {
+            "en": "Please send a reminder before the payment deadline.",
+            "zh": "请在付款截止日期前发出提醒。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "send a reminder",
+            "meaningZh": "发送提醒"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "日程与通知",
+            "noteZh": "用于帮助记住待办事项或期限。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "notification",
+            "noteZh": "notification 泛指通知；reminder 专门帮助想起或记住某事。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check",
+    "wordFormation": [
+      {
+        "part": "remind + -er",
+        "explanationZh": "remind 加 -er，指起提醒作用的人或物。"
+      }
+    ]
+  },
+  {
+    "id": "deserve-verb",
+    "word": "deserve",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "categories": [
+      "托业"
+    ],
+    "collectionIds": [
+      "toeic-bubei-bb1"
+    ],
+    "pronunciation": {
+      "ipa": "dɪˈzɝːv",
+      "accent": "en-US",
+      "sourceUrl": "https://dictionary.cambridge.org/pronunciation/english/deserve",
+      "verifiedAt": "2026-11-04"
+    },
+    "senses": [
+      {
+        "senseId": "deserve-verb-01",
+        "definitionEn": "To be worthy of something because of your actions or qualities.",
+        "definitionZh": "由于行为或品质而值得得到某物。",
+        "meaningZh": "值得；应得",
+        "nuanceZh": "可用于正面的奖励，也可用于负面的后果；常用 deserve to do。",
+        "examples": [
+          {
+            "en": "Employees who work hard deserve recognition.",
+            "zh": "努力工作的员工值得获得认可。"
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "deserve recognition",
+            "meaningZh": "值得获得认可"
+          }
+        ],
+        "contexts": [
+          {
+            "title": "评价与待遇",
+            "noteZh": "用于表达某人应得到怎样的回报或对待。"
+          }
+        ],
+        "confusables": [
+          {
+            "word": "earn",
+            "noteZh": "earn 常强调通过工作获得；deserve 表示从道理或评价上值得得到。"
+          }
+        ],
+        "distractorSenseIds": []
+      }
+    ],
+    "sourceNote": "词头来自用户提供的不背单词 TOEIC常考截图；释义、翻译和例句为项目原创整理稿，待内容核查；词汇等级为项目估计。",
+    "reviewStatus": "needs-check"
+  }
+]

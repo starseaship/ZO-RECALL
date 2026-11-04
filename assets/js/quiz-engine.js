@@ -1,4 +1,4 @@
-import { normalize, LEVELS } from './schema.js';
+import { normalize, LEVELS } from './schema.js?v=20261104.5';
 export function shuffle(items, random = Math.random) { const a = [...items]; for (let i=a.length-1;i>0;i--) { const j = Math.floor(random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; }
 const stop = new Set(['a','an','the','to','of','or','and','in','on','for','with','that','is','be','it','by','as','something','someone']);
 const tokens = text => new Set(normalize(text).split(' ').filter(t => !stop.has(t) && t.length > 2));
@@ -9,7 +9,7 @@ export function similarDefinitions(a,b) {
 }
 export const flatten = words => words.flatMap(word => word.senses.map(sense => ({word,sense})));
 function conflicts(a,b) {
-  if (a.word.id === b.word.id) return true;
+  if (a.word.id === b.word.id || normalize(a.word.word) === normalize(b.word.word)) return true;
   const names = x => new Set(x.word.senses.flatMap(s => s.confusables ?? []).map(c => normalize(c.word)));
   if (names(a).has(normalize(b.word.word)) || names(b).has(normalize(a.word.word))) return true;
   if (a.sense.equivalenceGroup && a.sense.equivalenceGroup === b.sense.equivalenceGroup) return true;
