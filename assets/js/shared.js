@@ -45,7 +45,7 @@ export async function boot(page) {
     const data=await loadData();
     const ctx={...data,store:createProgressStore(data.allWords,notice)};
     $('#mode-banner').hidden=!data.drafts;
-    if (data.drafts) $('#mode-banner').innerHTML=`测试词库 · ${data.pending} 个词条待人工核查 <a href="${location.pathname.split('/').pop()}">退出测试</a>`;
+    if (data.drafts) $('#mode-banner').innerHTML=`测试词库 · ${data.pending} 个词条待人工核查 <a href="${location.pathname.split('/').pop() || 'index.html'}">退出测试</a>`;
     if (data.warnings.length) notice(`${data.warnings.length} 项词库加载提示：${data.warnings.slice(0,2).join('；')}`);
     document.addEventListener('click',event=>{
       const button=event.target.closest('[data-speak]'); if (button) { const w=data.words.find(w=>w.id===button.dataset.speak); if(w) speak(w.word,w.pronunciation?.accent); }
