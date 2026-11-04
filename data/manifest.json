@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026-11-04.1",
+  "categories": ["Common", "School", "TOEIC", "Academic"],
+  "files": ["data/words-001.json"]
+}
